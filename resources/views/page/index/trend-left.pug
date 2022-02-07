@@ -1,0 +1,42 @@
+div(class="tiles")
+  each item in items
+    div(class="tile", data-id=`${item.id}`,
+      data-length=`${item.length}`,
+      data-width=`${item.width}`,
+      data-thickness=`${item.thickness}`,
+      data-square=`${item.square}`,
+      data-weight=`${item.weight}`,
+      data-tile=`${item.tile}`,
+      data-collection=`${item.collection}`,
+      data-product=`${item.product}`,
+      data-link=`${item.link}`,
+    )
+      img(src=`${item.tile}`, alt=`${item.id}`)
+      div(class="overlay hidden")
+        include ../../partials/svg/check
+
+div(class="spec-wrapper")
+  div(class="spec-title")
+    | Технические характеристики
+  div(class="spec-item")
+    | длина (мм):
+    |
+    span(class="spec-item-length")
+  div(class="spec-item")
+    | ширина (мм):
+    |
+    span(class="spec-item-width")
+  div(class="spec-item")
+    | толщина (мм):
+    |
+    span(class="spec-item-thickness")
+  div(class="spec-item")
+    | площадь (м2):
+    |
+    span(class="spec-item-square")
+  div(class="spec-item")
+    | вес плиты (кг):
+    |
+    span(class="spec-item-weight")
+
+img(src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==", alt="", class="target-tile")

@@ -1,0 +1,115 @@
+.news.top {
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-style: normal;
+}
+.news.top .h1 {
+  margin: 0 0 60px;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 48px;
+  line-height: 58px;
+}
+@media (max-width: 1262.98px) {
+  .news.top .h1 {
+    margin-bottom: 45px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media (max-width: 750.98px) {
+  .news.top .h1 {
+    margin-bottom: 32px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+.news.top .details {
+  margin-bottom: 45px;
+}
+@media (max-width: 750.98px) {
+  .news.top .details {
+    margin-bottom: 32px;
+  }
+}
+.news.top .details-head {
+  cursor: pointer;
+  width: 138px;
+  height: 52px;
+}
+@media (max-width: 750.98px) {
+  .news.top .details-head {
+    width: 124px;
+    height: 42px;
+    font-size: 15px;
+  }
+}
+.news.top .details-head svg {
+  display: block;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 750.98px) {
+  .news.top .details-head svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+.news.top .details-body {
+  margin-top: 32px;
+}
+@media (max-width: 750.98px) {
+  .news.top .details-body {
+    margin-top: 24px;
+  }
+}
+.news.top .tiles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+  overflow: auto;
+}
+.news.top .tile {
+  flex-shrink: 0;
+}
+.news.top .tile:not(:first-child) {
+  margin-left: 30px;
+}
+.news.top .tile a, .news.top .tile span {
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 46px;
+}
+@media (max-width: 1262.98px) {
+  .news.top .tile a, .news.top .tile span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 750.98px) {
+  .news.top .tile a, .news.top .tile span {
+    font-size: 14px;
+    line-height: 42px;
+  }
+}
+.news.top .tile a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: #7C7C81;
+}
+@media (hover: hover) {
+  .news.top .tile a:hover {
+    color: #4A4A51;
+  }
+}
+.news.top .tile a:active {
+  color: #27272B;
+}
+.news.top .tile span {
+  border-bottom: 2px solid #DD2929;
+  color: #000000;
+}

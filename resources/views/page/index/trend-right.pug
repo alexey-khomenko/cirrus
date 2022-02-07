@@ -1,0 +1,40 @@
+div(class="title")
+  div(class="title-left")
+    div(class="collection-text")
+      | Коллекция
+    div(class="collection-title")
+  div(class="title-right")
+    div(class="product-text")
+      | Выбранный продукт
+    div(class="product-title")
+each item in items
+  div(class="text-wrapper hidden", data-id=`${item.id}`)
+    | !{item.text}
+div(class="quantity-wrapper")
+  div(class="quantity-left")
+    div(class="quantity-minus")
+      | -
+    div(class="quantity-number")
+      | 1
+    div(class="quantity-plus")
+      | +
+  div(class="quantity-right")
+    div(class="quantity-progress")
+      div(class="progress-line", style="width: 12px")
+      div(class="progress-point", style="left: 12px")
+    div(class="progress-numbers")
+      span(class="progress-number active", data-number="1")
+        | 1
+      span(class="progress-number", data-number="50")
+        | 50
+      span(class="progress-number", data-number="100")
+        | 100
+
+div(class="buttons")
+  button(type="button", class="button circuit-inverse add-to-order")
+    span
+      | Добавить в заказ
+  a(href="product.html", class="button transparent-inverse go-to-product")
+    span
+      | Перейти к продукту
+    include ../../partials/svg/arrow-right

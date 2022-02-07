@@ -1,0 +1,418 @@
+@import "././resources/styles/__/variables";
+
+.cart.info {
+  width: 585px;
+
+  @media (max-width: $media-grid-lg) {
+    width: 508px;
+  }
+
+  @media (max-width: $media-grid-md) {
+    width: 100%;
+  }
+
+  .form-wrapper {
+    position: relative;
+    padding: 46px 33px 60px 50px;
+
+    @media (max-width: $media-grid-lg) {
+      padding: 46px 0 60px 36px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      padding: 36px 0 68px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      padding: 36px 0 72px;
+    }
+
+    &::before {
+      content: "";
+      background-color: $color-gray-050;
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: -140px;
+
+      @media (max-width: $media-grid-lg) {
+        right: -125px;
+      }
+
+      @media (max-width: $media-grid-md) {
+        left: -34px;
+        right: -34px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        left: -20px;
+        right: -20px;
+      }
+    }
+  }
+
+  .form-title {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 22px;
+    color: $color-black;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    line-height: 30px;
+
+    @media (max-width: $media-grid-lg) {
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      font-size: 21px;
+      line-height: 26px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 20px;
+      font-size: 19px;
+      line-height: 24px;
+    }
+  }
+
+  .form {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-column-gap: 44px;
+    grid-template-columns: 1fr;
+
+    @media (max-width: $media-grid-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .checkboxes-top {
+    margin-bottom: 22px;
+
+    @media (max-width: $media-grid-md) {
+      margin-bottom: 20px;
+      grid-column-start: 2;
+      grid-column-end: span 1;
+      grid-row-start: 1;
+      grid-row-end: span 1;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 28px;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 3;
+      grid-row-end: span 1;
+    }
+  }
+
+  .checkboxes-bottom {
+    margin-bottom: 40px;
+
+    @media (max-width: $media-grid-md) {
+      margin-bottom: 24px;
+      grid-column-start: 2;
+      grid-column-end: span 1;
+      grid-row-start: 2;
+      grid-row-end: span 1;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 36px;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 4;
+      grid-row-end: span 1;
+    }
+  }
+
+  .inputs {
+    margin-bottom: 34px;
+
+    @media (max-width: $media-grid-md) {
+      margin-bottom: 24px;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 1;
+      grid-row-end: span 2;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 1;
+      grid-row-end: span 1;
+    }
+  }
+
+  .field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid $color-gray-900;
+    padding-bottom: 10px;
+
+    &:not(:last-child) {
+      margin-bottom: 25px;
+
+      @media (max-width: $media-grid-sm) {
+        margin-bottom: 18px;
+      }
+    }
+
+    svg {
+      color: transparent;
+      display: block;
+      width: 17px;
+      height: auto;
+      position: absolute;
+      top: 28px;
+      right: 3px;
+    }
+
+    &.error svg {
+      color: $color-red-700;
+    }
+
+    &.success svg {
+      color: #26C540;
+    }
+  }
+
+  .label {
+    color: $color-gray-500;
+    font-size: 14px;
+    line-height: 22px;
+
+    @media (max-width: $media-grid-md) {
+      font-size: 13px;
+    }
+  }
+
+  .input, .textarea {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: $color-black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+
+    @media (max-width: $media-grid-md) {
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      font-size: 14px;
+    }
+
+    &::placeholder {
+      opacity: 1;
+      font-weight: 400;
+      color: $color-gray-300;
+    }
+  }
+
+  .input {
+    height: auto;
+  }
+
+  .textarea {
+    height: 100px;
+    resize: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .form-textarea {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid $color-gray-900;
+    padding-bottom: 10px;
+
+    @media (max-width: $media-grid-md) {
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 3;
+      grid-row-end: span 2;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 36px;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 2;
+      grid-row-end: span 1;
+    }
+  }
+
+  .form-agree {
+    margin-bottom: 30px;
+
+    @media (max-width: $media-grid-md) {
+      grid-column-start: 2;
+      grid-column-end: span 1;
+      grid-row-start: 3;
+      grid-row-end: span 1;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 5;
+      grid-row-end: span 1;
+    }
+  }
+
+  .checkboxes-head {
+    margin-bottom: 12px;
+    color: $color-black;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-size: 21px;
+    line-height: 26px;
+
+    @media (max-width: $media-grid-md) {
+      font-size: 19px;
+      line-height: 24px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 14px;
+      font-size: 17px;
+      line-height: 22px;
+    }
+  }
+
+  .checkboxes-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .form-agree, .checkboxes-body {
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    label {
+      cursor: pointer;
+      display: block;
+      position: relative;
+      padding-left: 30px;
+      color: $color-black;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      font-size: 17px;
+      line-height: 32px;
+
+      @media (max-width: $media-grid-md) {
+        font-size: 15px;
+        line-height: 28px;
+      }
+
+      &::after {
+        border-color: $color-red-700;
+      }
+
+      @media (hover: hover) {
+        &:hover::after {
+          border-color: $color-red-300;
+        }
+      }
+
+      &:active::after {
+        border-color: $color-red-300;
+      }
+    }
+
+    label::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 2px;
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      border: 2px solid $color-gray-900;
+
+      @media (max-width: $media-grid-md) {
+        top: 6px;
+      }
+    }
+
+    input[type="checkbox"]:checked + label::after {
+      content: "";
+      position: absolute;
+      top: 13px;
+      left: 6px;
+      width: 8px;
+      height: 5px;
+      border-left-style: solid;
+      border-bottom-style: solid;
+      border-left-width: 2px;
+      border-bottom-width: 2px;
+      transform: rotate(-48deg);
+
+      @media (max-width: $media-grid-md) {
+        top: 11px;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+      color: $color-red-700;
+
+      @media (hover: hover) {
+        &:hover {
+          color: $color-red-500;
+        }
+      }
+
+      &:active {
+        color: $color-red-300;
+      }
+    }
+  }
+
+  .btn-submit {
+    height: 52px;
+
+    @media (max-width: $media-grid-md) {
+      grid-column-start: 2;
+      grid-column-end: span 1;
+      grid-row-start: 4;
+      grid-row-end: span 1;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      font-size: 15px;
+      height: 42px;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 6;
+      grid-row-end: span 1;
+    }
+  }
+}

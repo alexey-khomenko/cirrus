@@ -1,0 +1,30 @@
+extends ../layouts/app
+
+block title
+  | Product
+
+block main
+  -
+    breadcrumbs = [
+      {
+        name: 'Каталог продукции Staron',
+        link: 'catalog.html',
+      },
+      {
+        name: 'Коллекция SUPREME',
+        link: 'collection.html',
+      },
+      {
+        name: 'Natural Bridge',
+      },
+    ];
+  include ../partials/pages/breadcrumbs
+
+  link(rel="stylesheet", href="css/pages/product.css")
+  div(class="container container-fixed")
+    div(class="product")
+      h1(class="h1")
+        | Natural Bridge
+      div(class="product-wrapper")
+        include ../page/product/images
+        include ../page/product/info

@@ -1,0 +1,79 @@
+.new.content {
+  display: grid;
+  grid-template-columns: 1fr 928px 1fr;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-style: normal;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 21px;
+  line-height: 34px;
+}
+@media (max-width: 1262.98px) {
+  .new.content {
+    grid-template-columns: 1fr 720px 1fr;
+  }
+}
+@media (max-width: 750.98px) {
+  .new.content {
+    display: block;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1262.98px) {
+  .new.content {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 750.98px) {
+  .new.content {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+.new.content > * {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+@media (max-width: 750.98px) {
+  .new.content > * {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.new.content img, .new.content iframe {
+  display: block;
+  margin: 0 auto 32px;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  max-width: 100%;
+  width: 1440px;
+  max-height: 500px;
+}
+@media (max-width: 1422.98px) {
+  .new.content img, .new.content iframe {
+    width: 1280px;
+    max-height: 400px;
+  }
+}
+@media (max-width: 1262.98px) {
+  .new.content img, .new.content iframe {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 750.98px) {
+  .new.content img, .new.content iframe {
+    margin: 0 -10px 16px;
+    max-width: calc(100% + 20px);
+    max-height: 200px;
+  }
+}
+.new.content img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.new.content p {
+  margin: 0 0 16px;
+}

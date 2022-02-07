@@ -1,0 +1,12 @@
+@import "././resources/styles/__/variables";
+
+.footer {
+  position: relative;
+  background-color: $color-grey-500;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

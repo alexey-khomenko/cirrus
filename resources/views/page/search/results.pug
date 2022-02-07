@@ -1,0 +1,84 @@
+-
+  links = {
+    0: {
+      image: 'images/content-search-results-1.jpg',
+      title: 'Natural Bridge V111',
+      subtitle: 'Коллекция METALLIC',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    1: {
+      image: 'images/content-search-results-1.jpg',
+      title: 'Delphi V111',
+      subtitle: 'Коллекция Supreme',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    2: {
+      image: 'images/content-search-results-2.jpg',
+      title: 'Cotton White V111',
+      subtitle: 'Коллекция Supreme',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    3: {
+      image: 'images/content-search-results-3.jpg',
+      title: 'Delphi V111',
+      subtitle: 'Коллекция aspen',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    4: {
+      image: 'images/content-search-results-4.jpg',
+      title: 'Delphi V111',
+      subtitle: 'Коллекция Supreme',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    5: {
+      image: 'images/content-search-results-1.jpg',
+      title: 'Natural Bridge V111',
+      subtitle: 'Коллекция METALLIC',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    6: {
+      image: 'images/content-search-results-2.jpg',
+      title: 'Delphi V111',
+      subtitle: 'Коллекция aspen',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+    7: {
+      image: 'images/content-search-results-3.jpg',
+      title: 'Delphi V111',
+      subtitle: 'Коллекция Supreme',
+      text: 'Листы искусственного камня',
+      link: 'product.html',
+    },
+  };
+link(rel="stylesheet", href="css/page/search/results.css")
+script(src="js/page/search/results.js")
+section(class="search results")
+  h2(class="h2")
+    | Вот что удалось найти:
+  nav(class="nav", data-found-total="9")
+    each link in links
+      a(href=`${link.link}`, class="a")
+        img(alt="", class="l", src=`${link.image}`)
+        div(class="c")
+          div(class="title")
+            span
+              | #{link.title}
+          div(class="subtitle")
+            span
+              | #{link.subtitle}
+          div(class="text")
+            span
+              | #{link.text}
+        div(class="r")
+          include ../../partials/svg/arrow-right
+  button(type="button", class="button circuit show-more")
+    span
+      | Показать больше
+    include ../../partials/svg/arrow-bottom

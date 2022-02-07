@@ -1,0 +1,80 @@
+link(rel="stylesheet", href="css/layout/modal-application.css")
+script(src="js/layout/modal-application.js")
+section(class="modal-popup application")
+  div(class="wrapper")
+    div(class="head")
+      h4(class="h4")
+        | Оформление заявки
+      button(type="button", class="close")
+        include ../partials/svg/close-1
+
+    form(class="body form application", novalidate="novalidate")
+      section(class="left")
+        h5(class="h5")
+          | Ваши данные
+        div(class="row row-left")
+          label(for="application-name")
+            | Имя*
+          input(id="application-name", name="name", type="text", placeholder="Ваше имя", value="")
+        div(class="row row-left")
+          label(for="application-tel")
+            | Телефон*
+          input(id="application-tel", name="tel", type="tel", placeholder="+7 (___) ___-__-__", value="")
+        div(class="row row-left")
+          label(for="application-email")
+            | E-mail*
+          input(id="application-email", name="email", type="email", placeholder="Ваш email", value="")
+
+        h6(class="h6")
+          | Я хочу:
+        div(class="checkboxes")
+          input(id="application-want-0", name="want[]", type="checkbox", value="check-box-value-0")
+          div(class="checkbox checkbox-left")
+            label(for="application-want-0")
+              | Узнать наличие продуктов / купить
+          input(id="application-want-1", name="want[]", type="checkbox", value="check-box-value-1")
+          div(class="checkbox checkbox-left")
+            label(for="application-want-1")
+              | Заказать образцы
+          input(id="application-want-2", name="want[]", type="checkbox", value="check-box-value-2")
+          div(class="checkbox checkbox-left")
+            label(for="application-want-2")
+              | Узнать цену
+
+      section(class="right")
+        details(class="row select")
+          summary
+            input(id="application-country", readonly="readonly", name="country", type="text", placeholder="Выберите вашу страну из списка*", value="")
+
+            svg(width="12", height="8", viewBox="0 0 12 8", fill="none", xmlns="http://www.w3.org/2000/svg")
+              path(d="M10.59 0.589844L6 5.16984L1.41 0.589844L0 1.99984L6 7.99984L12 1.99984L10.59 0.589844Z", fill="currentColor")
+
+          div(class="options")
+            div(class="option", data-value="Россия")
+              span
+                | Россия
+            div(class="option", data-value="Белоруссия")
+              span
+                | Белоруссия
+            div(class="option", data-value="Казахстан")
+              span
+                | Казахстан
+
+        div(class="row row-right")
+          label(for="application-message")
+            | Сообщение
+          textarea(id="application-message", name="message", placeholder="Опишите интересующий вас вопрос или материалы, наличие которых вас интересует.")
+
+        input(id="application-agree", name="agree", type="checkbox")
+        div(class="checkbox checkbox-right")
+          label(for="application-agree")
+            | Я ознакомлен с
+            |
+            a(href="404.html", target="_blank")
+              | политикой конфиденциальности
+            |
+            | и обработки персональных данных
+
+        button(type="submit", class="button default submit")
+          span
+            | Отправить заявку

@@ -1,0 +1,15 @@
+@import "././resources/styles/__/variables";
+@import "././resources/styles/partials/mixins/gallery-news-buttons";
+
+.news.buttons {
+  @include section;
+
+  .btn-less, .btn-more {
+    @include all-buttons;
+    @include two-buttons;
+  }
+
+  .btn-less svg {
+    transform: rotate(180deg);
+  }
+}

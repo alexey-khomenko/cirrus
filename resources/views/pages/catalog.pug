@@ -1,0 +1,21 @@
+extends ../layouts/app
+
+block title
+  | Catalog
+
+block main
+  -
+    breadcrumbs = [
+      {
+        name: 'Каталог продукции Staron',
+      },
+    ];
+  include ../partials/pages/breadcrumbs
+
+  link(rel="stylesheet", href="css/pages/catalog.css")
+  div(class="container container-fixed")
+    h1(class="catalog-h1")
+      | Каталог продукции Staron
+    div(class="catalog-wrapper")
+      include ../page/catalog/cards
+      include ../page/catalog/buttons

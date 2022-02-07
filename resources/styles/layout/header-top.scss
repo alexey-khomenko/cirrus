@@ -1,0 +1,241 @@
+@import "././resources/styles/__/variables";
+@import "././resources/styles/__/mixins";
+
+.header-top {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  @media (max-width: $media-grid-md) {
+    height: 56px;
+  }
+
+  .button {
+    @media (max-width: $media-grid-md) {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+
+      @media (max-width: $media-grid-md) {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    &.hamburger {
+      flex-basis: 105px;
+      flex-shrink: 1;
+      flex-grow: 1;
+
+      @media (max-width: $media-grid-lg) {
+        flex-basis: 94px;
+      }
+
+      @media (max-width: $media-grid-md) {
+        flex-basis: 56px;
+      }
+    }
+
+    &.cart {
+      flex-basis: 122px;
+      flex-shrink: 1;
+      flex-grow: 1;
+
+      @media (max-width: $media-grid-md) {
+        flex-basis: 56px;
+      }
+    }
+
+    &.application {
+      width: 220px;
+      height: 52px;
+      margin: 0 10px 0 16px;
+
+      @media (max-width: $media-grid-md) {
+        width: 145px;
+        height: 36px;
+        margin: 0 2px 0 10px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        display: none;
+      }
+    }
+  }
+
+  .link {
+    @include link;
+
+    color: $color-gray-800;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color-red-700;
+      }
+    }
+
+    &:active {
+      color: $color-red-700;
+    }
+
+    &.search {
+      margin-right: 11px;
+    }
+
+    &.phone {
+      margin: 0 22px 0 11px;
+
+      @media (max-width: $media-grid-md) {
+        margin: 0 10px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        margin: 0 16px;
+      }
+
+      svg {
+        width: 32px;
+        height: 32px;
+
+        @media (max-width: $media-grid-md) {
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      span {
+        margin-left: 6px;
+
+        @media (max-width: $media-grid-md) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    margin-left: 34px;
+    margin-right: auto;
+    color: $color-black;
+
+    @media (max-width: $media-grid-lg) {
+      margin-left: 30px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      margin-left: 19px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-left: 17px;
+    }
+
+    svg {
+      height: 40px;
+      width: auto;
+
+      @media (max-width: $media-grid-md) {
+        height: 24px;
+      }
+    }
+  }
+
+  .center {
+    width: 1213px;
+    flex-shrink: 0;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: $media-grid-lg) {
+      width: 1064px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      width: 656px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      width: 248px;
+    }
+  }
+
+  .form.search {
+    position: relative;
+    display: block;
+    width: 448px;
+
+    @media (max-width: $media-grid-lg) {
+      width: 304px;
+    }
+
+    input[type=search] {
+      height: 52px;
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 42px;
+      border: 1px solid $color-gray-800;
+      border-radius: 2px;
+      font-family: $font-family-1;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $color-gray-800;
+
+      &::placeholder {
+        opacity: 1;
+        font-weight: 400;
+        color: $color-gray-300;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .details {
+    margin: 0 18px;
+
+    @media (max-width: $media-grid-md) {
+      margin: 0 20px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      display: none;
+    }
+
+    .link.lang {
+      @media (pointer: coarse) {
+        &:active svg {
+          color: $color-gray-800;
+        }
+      }
+
+      @media (hover: hover) {
+        &:hover svg {
+          color: $color-gray-800;
+        }
+      }
+    }
+
+    &[open] .link.lang {
+      color: $color-red-700;
+
+      svg {
+        color: $color-gray-800;
+      }
+    }
+  }
+}

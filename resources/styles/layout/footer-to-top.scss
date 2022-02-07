@@ -1,0 +1,46 @@
+@import "././resources/styles/__/variables";
+
+.footer-to-top {
+  display: none;
+  left: 50%;
+  transform: translateX(($container-fixed-xl * 0.5 + 10px));
+
+  @media (max-width: $media-grid-lg) {
+    transform: translateX(($container-fixed-lg * 0.5 - 5px));
+  }
+
+  &.fixed, &.absolute {
+    display: block;
+
+    @media (max-width: $media-grid-md) {
+      display: none;
+    }
+  }
+
+  &.fixed {
+    position: fixed;
+    bottom: 10px;
+  }
+
+  &.absolute {
+    position: absolute;
+    bottom: 360px;
+  }
+
+  .button {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      text-transform: uppercase;
+    }
+
+    svg {
+      margin-bottom: 10px;
+    }
+  }
+}

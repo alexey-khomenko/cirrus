@@ -1,0 +1,45 @@
+link(rel="stylesheet", href="css/page/collection/modal.css")
+section(class="modal-popup collection_modal")
+  div(class="wrapper")
+    div(class="head")
+      div(class="logo")
+        include ../../partials/svg/logo-staron
+      button(type="button", class="close")
+        include ../../partials/svg/close-2
+    div(class="body")
+
+      link(rel="stylesheet", href="css/page/collection/modal-images.css")
+      div(class="images")
+        div(class="img-small img-0 active")
+          img(alt="", src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==")
+        div(class="img-small img-1")
+          img(alt="", src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==")
+        div(class="img-small img-2")
+          img(alt="", src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==")
+        div(class="img-big")
+          img(alt="", src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==")
+
+      link(rel="stylesheet", href="css/page/collection/modal-texts.css")
+      div(class="texts")
+        div(class="title")
+          div(class="title-left")
+            div(class="collection-text")
+              | Коллекция
+            div(class="collection-title")
+          div(class="title-right")
+            div(class="product-text")
+              | Выбранный продукт
+            div(class="product-title")
+        div(class="text")
+        div(class="properties-head")
+            | Технические характеристики
+        div(class="properties")
+        div(class="buttons")
+          button(type="button", class="button secondary btn-next", data-next="0")
+            span
+              | Следующий продукт
+            include ../../partials/svg/next
+          a(href="#", class="button default btn-link")
+            span
+              | В карточку товара
+            include ../../partials/svg/arrow-bottom

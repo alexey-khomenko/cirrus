@@ -1,0 +1,86 @@
+.footer-part.right .top {
+  position: relative;
+}
+.footer-part.right .top::before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  background-color: #403E3D;
+}
+.footer-part.right .top .wrapper {
+  display: block;
+  height: 188px;
+  width: 290px;
+  z-index: 1;
+  position: relative;
+  padding: 40px 0 0 44px;
+}
+.footer-part.right .btn {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
+@media (hover: hover) {
+  .footer-part.right .btn:hover {
+    border-color: #757575;
+  }
+}
+.footer-part.right .btn:active {
+  border-color: #757575;
+}
+.footer-part.right .link {
+  color: #FFFFFF;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 28px;
+}
+@media (hover: hover) {
+  .footer-part.right .link:hover {
+    color: #949494;
+  }
+}
+.footer-part.right .link:active {
+  color: #949494;
+}
+.footer-part.right .bottom {
+  position: relative;
+}
+.footer-part.right .bottom::before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  background-color: #302E2D;
+}
+.footer-part.right .bottom .wrapper {
+  display: block;
+  height: 100px;
+  width: 290px;
+  padding: 8px 0 0 44px;
+  z-index: 1;
+  position: relative;
+}
+.footer-part.right .logo {
+  display: block;
+  text-decoration: none;
+}

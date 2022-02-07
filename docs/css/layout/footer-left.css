@@ -1,0 +1,51 @@
+.footer-part.left {
+  position: relative;
+}
+.footer-part.left::before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 286px;
+  height: 315px;
+  background-color: #201B17;
+}
+.footer-part.left .wrapper {
+  display: block;
+  width: 268px;
+  height: 288px;
+  padding-top: 45px;
+  z-index: 1;
+  position: relative;
+}
+.footer-part.left .logo {
+  display: block;
+  margin: 0 38px 0 27px;
+  color: #949494;
+  text-decoration: none;
+}
+@media (hover: hover) {
+  .footer-part.left .logo:hover {
+    color: #FFFFFF;
+  }
+}
+.footer-part.left .logo:active {
+  color: #FFFFFF;
+}
+.footer-part.left .logo svg {
+  display: block;
+  width: 196px;
+  height: auto;
+}
+.footer-part.left .logo .text {
+  margin: 22px 0 0 auto;
+  width: 190px;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  line-height: 20px;
+}

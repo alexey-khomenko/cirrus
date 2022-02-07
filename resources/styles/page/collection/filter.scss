@@ -1,0 +1,6 @@
+@import "././resources/styles/__/variables";
+@import "././resources/styles/partials/mixins/catalog-filter";
+
+.collection-wrapper .collection_filter {
+  @include filters;
+}

@@ -1,0 +1,50 @@
+.breadcrumbs {
+  margin: 56px 0 16px;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media (max-width: 750.98px) {
+  .breadcrumbs {
+    margin-top: 52px;
+  }
+}
+.breadcrumbs li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+.breadcrumbs li a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #7C7C81;
+}
+@media (hover: hover) {
+  .breadcrumbs li a:hover {
+    color: #000000;
+  }
+}
+.breadcrumbs li a:active {
+  color: #000000;
+}
+.breadcrumbs li svg {
+  color: #7C7C81;
+  margin: 0 20px;
+}
+@media (max-width: 750.98px) {
+  .breadcrumbs li svg {
+    margin: 0 14px;
+  }
+}
+.breadcrumbs li span {
+  font-weight: 600;
+  color: #ED8585;
+}

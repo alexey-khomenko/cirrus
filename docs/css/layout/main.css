@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #201B17;
+  flex-grow: 1;
+  padding-top: 150px;
+}
+@media (max-width: 1262.98px) {
+  .main {
+    padding-top: 104px;
+  }
+}

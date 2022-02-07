@@ -1,0 +1,64 @@
+@import "././resources/styles/__/variables";
+
+.footer-part.left {
+  position: relative;
+
+  &::before {
+    content: "";
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 286px;
+    height: 315px;
+    background-color: $color-grey-600;
+  }
+
+  .wrapper {
+    display: block;
+    width: 268px;
+    height: 288px;
+    padding-top: 45px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 38px 0 27px;
+    color: $color-grey-100;
+    text-decoration: none;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    &:active {
+      color: $color-white;
+    }
+
+    svg {
+      display: block;
+      width: 196px;
+      height: auto;
+    }
+
+    .text {
+      margin: 22px 0 0 auto;
+      width: 190px;
+      font-family: $font-family-1;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 11px;
+      line-height: 20px;
+    }
+  }
+
+  .social {
+
+  }
+}
