@@ -1,8 +1,22 @@
 link(rel="stylesheet", href="css/layout/footer-center.css")
 div(class="footer-part center")
   div(class="contacts")
-    div(class="tmp")
-      | .
+    a(href="tel:+74952236440", class="contact")
+      include ../partials/svg/footer-contacts-phone
+      span
+        | +7 495 223 64 40
+    a(href="404.html", target="_blank", class="contact address")
+      include ../partials/svg/footer-contacts-address
+      div
+        div(class="address-top")
+          | 142000 Россия
+        div(class="address-bottom")
+          | г. Домодедово мкр. Северный ул. Логистическая 8
+    a(href="mailto:office@koros-alianse.ru", class="contact")
+      include ../partials/svg/footer-contacts-email
+      span
+        | office@koros-alianse.ru
+
   nav(class="links")
     a(href="catalog.html", class="link")
       | Продукция

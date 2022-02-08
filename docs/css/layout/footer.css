@@ -1,9 +1,35 @@
 .footer {
+  overflow: hidden;
   position: relative;
   background-color: #262423;
+  padding-top: 27px;
+}
+@media (max-width: 1262.98px) {
+  .footer {
+    padding-top: 22px;
+  }
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  height: 27px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E1814;
+}
+@media (max-width: 1262.98px) {
+  .footer::before {
+    height: 22px;
+  }
 }
 .footer .container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+@media (max-width: 1262.98px) {
+  .footer .container {
+    flex-wrap: wrap;
+  }
 }

@@ -287,4 +287,36 @@ body.body {
       color: $color-gray-800;
     }
   }
+
+  &.a {
+    background-color: transparent;
+    border-color: $color-white;
+    color: $color-white;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-grey-200;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-grey-200;
+    }
+  }
+
+  &.b {
+    background-color: transparent;
+    border-color: $color-grey-200;
+    color: $color-white;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-white;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-white;
+    }
+  }
 }

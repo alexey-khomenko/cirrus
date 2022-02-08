@@ -5,12 +5,106 @@
   width: 662px;
   height: 288px;
 
+  @media (max-width: $media-grid-md) {
+    width: 496px;
+    height: 178px;
+  }
 
   .contacts {
     padding: 68px 48px 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 
-    .tmp {
-      height: 100px;
+    @media (max-width: $media-grid-lg) {
+      padding-bottom: 20px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      padding: 30px 14px 0;
+    }
+  }
+
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $color-white;
+    font-family: $font-family-1;
+    font-style: normal;
+    text-decoration: none;
+
+    svg {
+      flex-shrink: 0;
+      display: block;
+      width: 45px;
+      height: 38px;
+      margin-right: 12px;
+      color: $color-grey-300;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 28px;
+
+      @media (max-width: $media-grid-lg) {
+        font-size: 15px;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover svg {
+        color: $color-grey-100;
+      }
+    }
+
+    &:active svg {
+      color: $color-grey-100;
+    }
+  }
+
+  .contact.address {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+
+    svg {
+      align-self: flex-start;
+    }
+  }
+
+  .address {
+    &-top {
+      margin-top: 6px;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 28px;
+
+      @media (max-width: $media-grid-lg) {
+        font-size: 15px;
+      }
+    }
+
+    &-bottom {
+      color: $color-grey-200;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+    }
+  }
+
+  .contact.address {
+    @media (hover: hover) {
+      &:hover .address-bottom {
+        color: $color-white;
+      }
+    }
+
+    &:active .address-bottom {
+      color: $color-white;
     }
   }
 
@@ -19,6 +113,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: $media-grid-md) {
+      display: none;
+    }
   }
 
   .link {

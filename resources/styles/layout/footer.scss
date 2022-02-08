@@ -1,12 +1,36 @@
 @import "././resources/styles/__/variables";
 
 .footer {
+  overflow: hidden;
   position: relative;
   background-color: $color-grey-500;
+  padding-top: 27px;
+
+  @media (max-width: $media-grid-md) {
+    padding-top: 22px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 27px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $color-grey-700;
+
+    @media (max-width: $media-grid-md) {
+      height: 22px;
+    }
+  }
 
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+
+    @media (max-width: $media-grid-md) {
+      flex-wrap: wrap;
+    }
   }
 }

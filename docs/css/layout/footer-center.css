@@ -3,17 +3,108 @@
   width: 662px;
   height: 288px;
 }
+@media (max-width: 1262.98px) {
+  .footer-part.center {
+    width: 496px;
+    height: 178px;
+  }
+}
 .footer-part.center .contacts {
   padding: 68px 48px 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
-.footer-part.center .contacts .tmp {
-  height: 100px;
+@media (max-width: 1422.98px) {
+  .footer-part.center .contacts {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1262.98px) {
+  .footer-part.center .contacts {
+    padding: 30px 14px 0;
+  }
+}
+.footer-part.center .contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+.footer-part.center .contact svg {
+  flex-shrink: 0;
+  display: block;
+  width: 45px;
+  height: 38px;
+  margin-right: 12px;
+  color: #403E3D;
+}
+.footer-part.center .contact span {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+}
+@media (max-width: 1422.98px) {
+  .footer-part.center .contact span {
+    font-size: 15px;
+  }
+}
+@media (hover: hover) {
+  .footer-part.center .contact:hover svg {
+    color: #949494;
+  }
+}
+.footer-part.center .contact:active svg {
+  color: #949494;
+}
+.footer-part.center .contact.address {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+.footer-part.center .contact.address svg {
+  align-self: flex-start;
+}
+.footer-part.center .address-top {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+}
+@media (max-width: 1422.98px) {
+  .footer-part.center .address-top {
+    font-size: 15px;
+  }
+}
+.footer-part.center .address-bottom {
+  color: #757575;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+@media (hover: hover) {
+  .footer-part.center .contact.address:hover .address-bottom {
+    color: #FFFFFF;
+  }
+}
+.footer-part.center .contact.address:active .address-bottom {
+  color: #FFFFFF;
 }
 .footer-part.center .links {
   margin: 0 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 1262.98px) {
+  .footer-part.center .links {
+    display: none;
+  }
 }
 .footer-part.center .link {
   color: #757575;

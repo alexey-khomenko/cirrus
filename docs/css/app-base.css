@@ -88,12 +88,12 @@ body.body.closed {
 }
 @media (max-width: 1422.98px) {
   .container-footer {
-    max-width: 1050px;
+    max-width: 1168px;
   }
 }
 @media (max-width: 1262.98px) {
   .container-footer {
-    max-width: 720px;
+    max-width: 712px;
   }
 }
 @media (max-width: 750.98px) {
@@ -268,4 +268,30 @@ body.body.closed {
   background-color: #C7C7C8;
   border-color: #C7C7C8;
   color: #313138;
+}
+.button.a {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+@media (hover: hover) {
+  .button.a:not(:disabled):hover {
+    border-color: #757575;
+  }
+}
+.button.a:not(:disabled):active {
+  border-color: #757575;
+}
+.button.b {
+  background-color: transparent;
+  border-color: #757575;
+  color: #FFFFFF;
+}
+@media (hover: hover) {
+  .button.b:not(:disabled):hover {
+    border-color: #FFFFFF;
+  }
+}
+.button.b:not(:disabled):active {
+  border-color: #FFFFFF;
 }

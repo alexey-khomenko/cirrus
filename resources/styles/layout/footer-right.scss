@@ -1,7 +1,11 @@
 @import "././resources/styles/__/variables";
 
 .footer-part.right {
-  .top {
+  @media (max-width: $media-grid-md) {
+    flex-grow: 1;
+  }
+
+  .top, .bottom {
     position: relative;
 
     &::before {
@@ -12,43 +16,35 @@
       left: 0;
       bottom: 0;
       width: 400px;
-      background-color: $color-grey-300;
+
+      @media (max-width: $media-grid-lg) {
+        width: 420px;
+      }
     }
 
     .wrapper {
       display: block;
-      height: 188px;
-      width: 290px;
       z-index: 1;
       position: relative;
+      width: 290px;
+    }
+  }
+
+  .top {
+    &::before {
+      background-color: $color-grey-300;
+    }
+
+    .wrapper {
+      height: 188px;
       padding: 40px 0 0 44px;
     }
   }
 
-  .btn {
+  .button {
     margin-bottom: 20px;
     width: 220px;
     height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid $color-white;
-    color: $color-white;
-    font-family: $font-family-1;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 17px;
-    line-height: 20px;
-
-    @media (hover: hover) {
-      &:hover {
-        border-color: $color-grey-200;
-      }
-    }
-
-    &:active {
-      border-color: $color-grey-200;
-    }
   }
 
   .link {
@@ -72,26 +68,13 @@
   }
 
   .bottom {
-    position: relative;
-
     &::before {
-      content: "";
-      z-index: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 400px;
       background-color: $color-grey-400;
     }
 
     .wrapper {
-      display: block;
       height: 100px;
-      width: 290px;
       padding: 8px 0 0 44px;
-      z-index: 1;
-      position: relative;
     }
   }
 

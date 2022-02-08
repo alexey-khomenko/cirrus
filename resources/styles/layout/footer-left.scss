@@ -7,11 +7,20 @@
     content: "";
     z-index: 0;
     position: absolute;
+    top: -27px;
     right: 0;
     bottom: 0;
     width: 286px;
-    height: 315px;
     background-color: $color-grey-600;
+
+    @media (max-width: $media-grid-lg) {
+      width: 400px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      top: -22px;
+      width: 490px;
+    }
   }
 
   .wrapper {
@@ -21,13 +30,23 @@
     padding-top: 45px;
     z-index: 1;
     position: relative;
+
+    @media (max-width: $media-grid-md) {
+      width: 214px;
+      height: 178px;
+      padding-top: 24px;
+    }
   }
 
   .logo {
     display: block;
-    margin: 0 38px 0 27px;
+    margin: 0 38px 36px 27px;
     color: $color-grey-100;
     text-decoration: none;
+
+    @media (max-width: $media-grid-md) {
+      margin: 0 0 12px;
+    }
 
     @media (hover: hover) {
       &:hover {
@@ -43,6 +62,10 @@
       display: block;
       width: 196px;
       height: auto;
+
+      @media (max-width: $media-grid-md) {
+        width: 152px;
+      }
     }
 
     .text {
@@ -55,10 +78,49 @@
       letter-spacing: 0.1em;
       font-size: 11px;
       line-height: 20px;
+
+      @media (max-width: $media-grid-md) {
+        margin: 12px 0 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .socials {
+    width: (8px * 2 + 45px * 3);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+
+    @media (max-width: $media-grid-md) {
+      width: (8px * 2 + 32px * 3);
+      margin-left: 12px;
     }
   }
 
   .social {
+    color: $color-grey-300;
+    text-decoration: none;
 
+    svg {
+      display: block;
+      width: 45px;
+      height: auto;
+
+      @media (max-width: $media-grid-md) {
+        width: 32px;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover svg {
+        color: $color-grey-100;
+      }
+    }
+
+    &:active svg {
+      color: $color-grey-100;
+    }
   }
 }
