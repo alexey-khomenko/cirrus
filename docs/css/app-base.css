@@ -300,3 +300,63 @@ body.body.closed {
 .button.b:not(:disabled):active {
   border-color: #FFFFFF;
 }
+.button.c {
+  background-color: transparent;
+  border-color: #F46B1E;
+  color: #F46B1E;
+}
+@media (hover: hover) {
+  .button.c:not(:disabled):hover {
+    border-color: #F4AB1E;
+    color: #F4AB1E;
+  }
+}
+.button.c:not(:disabled):active {
+  border-color: #F4AB1E;
+  color: #F4AB1E;
+}
+.button.d {
+  background-color: transparent;
+  border-color: #F4AB1E;
+  color: #F4AB1E;
+}
+@media (hover: hover) {
+  .button.d:not(:disabled):hover {
+    border-color: #F46B1E;
+    color: #F46B1E;
+  }
+}
+.button.d:not(:disabled):active {
+  border-color: #F46B1E;
+  color: #F46B1E;
+}
+.button.e {
+  background-color: transparent;
+  border-color: #1EA7F4;
+  color: #1EA7F4;
+}
+@media (hover: hover) {
+  .button.e:not(:disabled):hover {
+    border-color: #6656CC;
+    color: #6656CC;
+  }
+}
+.button.e:not(:disabled):active {
+  border-color: #6656CC;
+  color: #6656CC;
+}
+.button.f {
+  background-color: transparent;
+  border-color: #6656CC;
+  color: #6656CC;
+}
+@media (hover: hover) {
+  .button.f:not(:disabled):hover {
+    border-color: #1EA7F4;
+    color: #1EA7F4;
+  }
+}
+.button.f:not(:disabled):active {
+  border-color: #1EA7F4;
+  color: #1EA7F4;
+}

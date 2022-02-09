@@ -1,6 +1,3 @@
-.index.trend {
-  background-color: #F8F8F8;
-}
 .index.trend h2 {
   margin: 116px 0 42px;
   font-family: "Proxima Nova", "Jost", sans-serif;
@@ -8,7 +5,7 @@
   font-style: normal;
   font-size: 48px;
   line-height: 80px;
-  color: #27272B;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .index.trend h2 {
@@ -29,6 +26,7 @@
 }
 .index.trend .tabs-head {
   display: flex;
+  align-items: center;
 }
 .index.trend .tabs-button {
   padding-bottom: 16px;
@@ -37,13 +35,14 @@
   border-right: none;
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  color: #FFFFFF;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-weight: 600;
   font-style: normal;
   letter-spacing: 0.02em;
   text-align: center;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 34px;
+  line-height: 52px;
 }
 @media (max-width: 1262.98px) {
   .index.trend .tabs-button {
@@ -59,20 +58,20 @@
 }
 .index.trend .tabs-button:not(.active) {
   border-bottom-color: transparent;
-  color: #7C7C81;
+  font-size: 20px;
+  line-height: 26px;
 }
 @media (hover: hover) {
   .index.trend .tabs-button:not(.active):hover {
-    color: #27272B;
+    border-bottom-color: #F46B1E;
   }
 }
 .index.trend .tabs-button:not(.active):active {
-  color: #27272B;
+  border-bottom-color: #F46B1E;
 }
 .index.trend .tabs-button.active {
   cursor: default;
-  border-bottom-color: #DD2929;
-  color: #000000;
+  border-bottom-color: #F46B1E;
 }
 .index.trend .tabs-button:not(:first-child) {
   margin-left: 55px;

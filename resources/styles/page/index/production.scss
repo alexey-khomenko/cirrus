@@ -1,10 +1,10 @@
 @import "././resources/styles/__/variables";
 
 .index.production {
-  padding: 122px 0 90px;
+  padding: 122px 0 224px;
 
   @media (max-width: $media-grid-md) {
-    padding: 95px 0 80px;
+    padding: 95px 0 160px;
   }
 
   @media (max-width: $media-grid-sm) {
@@ -18,7 +18,7 @@
     font-style: normal;
     font-size: 48px;
     line-height: 70px;
-    color: $color-gray-900;
+    color: $color-white;
 
     @media (max-width: $media-grid-md) {
       margin-bottom: 36px;
@@ -38,7 +38,7 @@
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 330px 330px;
-
+    position: relative;
 
     @media (max-width: $media-grid-lg) {
       grid-template-rows: 292px 292px;
@@ -56,9 +56,37 @@
       height: 632px;
       grid-template-rows: 144px 144px 144px 144px;
     }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      right: 50%;
+      transform: translate(60px, -60px);
+      height: 714px;
+      width: 99990px;
+      background-color: $color-grey-400;
+
+      @media (max-width: $media-grid-lg) {
+        transform: translate(60px, -180px);
+      }
+
+      @media (max-width: $media-grid-md) {
+        transform: translate(250px, 150px);
+      }
+
+      @media (max-width: $media-grid-sm) {
+        transform: translate(0, -100px);
+        height: 608px;
+      }
+    }
   }
 
   .image {
+    position: relative;
+    z-index: 2;
     width: 100%;
     height: 100%;
     display: block;
@@ -90,6 +118,8 @@
   }
 
   .buttons {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-flow: row wrap;
 
@@ -105,7 +135,9 @@
       margin-top: 54px;
 
       @media (max-width: $media-grid-sm) {
-        margin-top: 48px;
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: center;
       }
     }
   }
@@ -182,15 +214,7 @@
     }
 
     @media (max-width: $media-grid-sm) {
-      width: 150px;
-    }
-
-    @media (max-width: 339px) {
-      width: 144px;
-    }
-
-    @media (max-width: 329px) {
-      width: 138px;
+      width: 256px;
     }
   }
 
@@ -203,19 +227,13 @@
     }
 
     @media (max-width: $media-grid-sm) {
-      width: 160px;
-    }
-
-    @media (max-width: 339px) {
-      width: 158px;
+      margin-left: 0;
+      margin-top: 24px;
+      width: 256px;
     }
 
     svg {
       margin-left: 8px;
-
-      @media (max-width: $media-grid-sm) {
-        margin-left: 4px;
-      }
     }
   }
 }

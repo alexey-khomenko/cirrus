@@ -292,6 +292,7 @@ body.body {
     }
   }
 
+
   &.a {
     background-color: transparent;
     border-color: $color-white;
@@ -321,6 +322,78 @@ body.body {
 
     &:not(:disabled):active {
       border-color: $color-white;
+    }
+  }
+
+  &.c {
+    background-color: transparent;
+    border-color: $color-orange;
+    color: $color-orange;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-yellow;
+        color: $color-yellow;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-yellow;
+      color: $color-yellow;
+    }
+  }
+
+  &.d {
+    background-color: transparent;
+    border-color: $color-yellow;
+    color: $color-yellow;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-orange;
+        color: $color-orange;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-orange;
+      color: $color-orange;
+    }
+  }
+
+  &.e {
+    background-color: transparent;
+    border-color: $color-blue;
+    color: $color-blue;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-lila;
+        color: $color-lila;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-lila;
+      color: $color-lila;
+    }
+  }
+
+  &.f {
+    background-color: transparent;
+    border-color: $color-lila;
+    color: $color-lila;
+
+    @media (hover: hover) {
+      &:not(:disabled):hover {
+        border-color: $color-blue;
+        color: $color-blue;
+      }
+    }
+
+    &:not(:disabled):active {
+      border-color: $color-blue;
+      color: $color-blue;
     }
   }
 }
