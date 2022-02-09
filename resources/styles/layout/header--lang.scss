@@ -62,19 +62,19 @@ $dropdown-lang-arrow-size: 9px;
     text-transform: uppercase;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    background-color: $color-white;
+    background-color: $color-grey-600;
 
     &::after, &::before {
       content: "";
       position: absolute;
       z-index: -1;
       top: ($dropdown-lang-arrow-size * -1);
-      background-color: $color-white;
       left: 39px;
       width: ($dropdown-lang-arrow-size * 2);
       height: ($dropdown-lang-arrow-size * 2);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
       transform: rotate(45deg);
+      background-color: $color-grey-600;
     }
 
     &::before {
@@ -87,20 +87,20 @@ $dropdown-lang-arrow-size: 9px;
     }
 
     span {
-      color: $color-red-700;
+      color:$color-orange;
     }
 
     a {
-      color: $color-gray-500;
+      color: $color-grey-200;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-gray-900;
+          color: $color-white;
         }
       }
 
       &:active {
-        color: $color-gray-900;
+        color: $color-white;
       }
     }
   }

@@ -15,7 +15,7 @@
   width: 116px;
   height: 40px;
   margin-right: auto;
-  color: #C7C7C8;
+  color: #949494;
 }
 @media (pointer: coarse) {
   .header-large_menu-logo:active {
@@ -27,8 +27,13 @@
     color: #FFFFFF;
   }
 }
+.header-large_menu-logo svg {
+  height: 40px;
+  width: auto;
+}
 
 .header-large_menu-lang {
+  margin-top: 16px;
   padding: 2px 0;
 }
 .header-large_menu-lang .link {
@@ -41,7 +46,7 @@
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-  color: #C7C7C8;
+  color: #949494;
 }
 @media (max-width: 1262.98px) {
   .header-large_menu-lang .link {
@@ -63,9 +68,10 @@
 .header-large_menu-close {
   width: 24px;
   height: 24px;
+  margin-top: 16px;
   margin-left: 36px;
   background: none;
-  color: #C7C7C8;
+  color: #949494;
 }
 @media (max-width: 750.98px) {
   .header-large_menu-close {

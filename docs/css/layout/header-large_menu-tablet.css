@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #C7C7C8;
+  color: #949494;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -56,7 +56,7 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 38px;
-  background-color: #313138;
+  background-color: #302E2D;
   border: none;
   border-radius: 2px;
   font-family: "Proxima Nova", "Jost", sans-serif;
@@ -70,17 +70,17 @@
 .header-large_menu-tablet .form.search input[type=search]::-moz-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #949494;
 }
 .header-large_menu-tablet .form.search input[type=search]:-ms-input-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #949494;
 }
 .header-large_menu-tablet .form.search input[type=search]::placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #949494;
 }
 .header-large_menu-tablet .form.search button {
   position: absolute;
@@ -88,7 +88,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: none;
-  color: #AEAEB1;
+  color: #949494;
 }
 @media (pointer: coarse) {
   .header-large_menu-tablet .form.search button:active {

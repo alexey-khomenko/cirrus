@@ -17,7 +17,7 @@
   width: 116px;
   height: 40px;
   margin-right: auto;
-  color: $color-gray-200;
+  color: $color-grey-100;
 
   @media (pointer: coarse) {
     &:active {
@@ -30,15 +30,21 @@
       color: $color-white;
     }
   }
+
+  svg {
+    height: 40px;
+    width: auto;
+  }
 }
 
 .header-large_menu-lang {
+  margin-top: 16px;
   padding: 2px 0;
 
   .link {
     @include link;
 
-    color: $color-gray-200;
+    color: $color-grey-100;
 
     @media (pointer: coarse) {
       &:active {
@@ -57,9 +63,10 @@
 .header-large_menu-close {
   width: 24px;
   height: 24px;
+  margin-top: 16px;
   margin-left: 36px;
   background: none;
-  color: $color-gray-200;
+  color: $color-grey-100;
 
   @media (max-width: $media-grid-sm) {
     margin-left: 30px;

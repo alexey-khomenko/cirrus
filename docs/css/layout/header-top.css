@@ -77,7 +77,7 @@
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-  color: #313138;
+  color: #757575;
 }
 @media (max-width: 1262.98px) {
   .header-top .link {
@@ -87,11 +87,11 @@
 }
 @media (hover: hover) {
   .header-top .link:hover {
-    color: #DD2929;
+    color: #FFFFFF;
   }
 }
 .header-top .link:active {
-  color: #DD2929;
+  color: #FFFFFF;
 }
 .header-top .link.search {
   margin-right: 11px;
@@ -131,7 +131,7 @@
   display: flex;
   margin-left: 34px;
   margin-right: auto;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .header-top .logo {
@@ -154,13 +154,13 @@
 }
 @media (max-width: 1262.98px) {
   .header-top .logo svg {
-    height: 24px;
+    height: 28px;
   }
 }
 .header-top .center {
   width: 1213px;
   flex-shrink: 0;
-  background-color: #FFFFFF;
+  background-color: #1E1814;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,33 +191,34 @@
   }
 }
 .header-top .form.search input[type=search] {
+  background-color: #1E1814;
   height: 52px;
   width: 100%;
   padding-left: 20px;
   padding-right: 42px;
-  border: 1px solid #313138;
+  border: 1px solid #FFFFFF;
   border-radius: 2px;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 15px;
   line-height: 22px;
-  color: #313138;
+  color: #FFFFFF;
 }
 .header-top .form.search input[type=search]::-moz-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .header-top .form.search input[type=search]:-ms-input-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .header-top .form.search input[type=search]::placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .header-top .form.search button {
   position: absolute;
@@ -240,17 +241,17 @@
 }
 @media (pointer: coarse) {
   .header-top .details .link.lang:active svg {
-    color: #313138;
+    color: #FFFFFF;
   }
 }
 @media (hover: hover) {
   .header-top .details .link.lang:hover svg {
-    color: #313138;
+    color: #FFFFFF;
   }
 }
 .header-top .details[open] .link.lang {
-  color: #DD2929;
+  color: #FFFFFF;
 }
 .header-top .details[open] .link.lang svg {
-  color: #313138;
+  color: #FFFFFF;
 }

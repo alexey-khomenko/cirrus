@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $color-gray-200;
+    color: $color-grey-100;
 
     @media (pointer: coarse) {
       &:active {
@@ -78,7 +78,7 @@
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.02em;
-    color: $color-gray-200;
+    color: $color-grey-100;
 
     @media (max-width: $media-grid-sm) {
       margin-bottom: 8px;

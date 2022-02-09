@@ -3,6 +3,11 @@
 .footer-part.right {
   @media (max-width: $media-grid-md) {
     flex-grow: 1;
+    display: flex;
+  }
+
+  @media (max-width: $media-grid-sm) {
+    display: block;
   }
 
   .top, .bottom {
@@ -33,11 +38,37 @@
   .top {
     &::before {
       background-color: $color-grey-300;
+
+      @media (max-width: $media-grid-md) {
+        right: 0;
+        width: auto;
+        left: -280px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        right: -280px;
+      }
     }
 
     .wrapper {
       height: 188px;
       padding: 40px 0 0 44px;
+
+      @media (max-width: $media-grid-md) {
+        width: 500px;
+        height: 100px;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        width: 100%;
+        height: 200px;
+        padding-top: 28px;
+        display: block;
+      }
     }
   }
 
@@ -45,6 +76,23 @@
     margin-bottom: 20px;
     width: 220px;
     height: 48px;
+
+    @media (max-width: $media-grid-md) {
+      width: 186px;
+      height: 46px;
+      margin: 0 42px 0 0;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin: 0 auto 34px;
+    }
+  }
+
+  .links {
+    @media (max-width: $media-grid-sm) {
+      width: 232px;
+      margin: 0 auto;
+    }
   }
 
   .link {
@@ -55,6 +103,10 @@
     text-decoration: none;
     font-size: 15px;
     line-height: 28px;
+
+    @media (max-width: $media-grid-md) {
+      font-weight: 300;
+    }
 
     @media (hover: hover) {
       &:hover {
@@ -70,16 +122,48 @@
   .bottom {
     &::before {
       background-color: $color-grey-400;
+
+      @media (max-width: $media-grid-md) {
+        left: 0;
+        width: auto;
+        right: -280px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        left: -280px;
+      }
     }
 
     .wrapper {
       height: 100px;
       padding: 8px 0 0 44px;
+
+      @media (max-width: $media-grid-md) {
+        width: 212px;
+        padding: 16px 0 0 30px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        width: 100%;
+        padding: 20px 0 0;
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 
   .logo {
     display: block;
     text-decoration: none;
+
+    svg {
+      display: block;
+      width: auto;
+      height: 69px;
+
+      @media (max-width: $media-grid-md) {
+        height: 58px;
+      }
+    }
   }
 }

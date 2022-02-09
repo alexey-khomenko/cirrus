@@ -32,5 +32,9 @@
     @media (max-width: $media-grid-md) {
       flex-wrap: wrap;
     }
+
+    @media (max-width: $media-grid-sm) {
+      display: block;
+    }
   }
 }

@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #C7C7C8;
+  color: #949494;
 }
 @media (pointer: coarse) {
   .header-large_menu-foot-top a:active {
@@ -73,7 +73,7 @@
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  color: #C7C7C8;
+  color: #949494;
 }
 @media (max-width: 750.98px) {
   .header-large_menu-foot-bottom a {

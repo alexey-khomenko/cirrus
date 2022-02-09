@@ -10,6 +10,11 @@
     height: 178px;
   }
 
+  @media (max-width: $media-grid-sm) {
+    width: 100%;
+    height: 280px;
+  }
+
   .contacts {
     padding: 68px 48px 48px;
     display: grid;
@@ -22,6 +27,13 @@
 
     @media (max-width: $media-grid-md) {
       padding: 30px 14px 0;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      width: 236px;
+      margin: 0 auto;
+      padding: 24px 0 0;
+      grid-template-columns: 1fr;
     }
   }
 
@@ -70,6 +82,13 @@
     grid-row-start: 1;
     grid-row-end: span 2;
 
+    @media (max-width: $media-grid-sm) {
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 3;
+      grid-row-end: span 1;
+    }
+
     svg {
       align-self: flex-start;
     }
@@ -93,6 +112,10 @@
       font-weight: 400;
       font-size: 15px;
       line-height: 28px;
+
+      @media (max-width: $media-grid-sm) {
+        margin-top: 0;
+      }
     }
   }
 
@@ -107,6 +130,7 @@
       color: $color-white;
     }
   }
+
 
   .links {
     margin: 0 64px;

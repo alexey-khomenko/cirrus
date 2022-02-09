@@ -1,6 +1,12 @@
 @media (max-width: 1262.98px) {
   .footer-part.right {
     flex-grow: 1;
+    display: flex;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right {
+    display: block;
   }
 }
 .footer-part.right .top, .footer-part.right .bottom {
@@ -29,14 +35,62 @@
 .footer-part.right .top::before {
   background-color: #403E3D;
 }
+@media (max-width: 1262.98px) {
+  .footer-part.right .top::before {
+    right: 0;
+    width: auto;
+    left: -280px;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .top::before {
+    right: -280px;
+  }
+}
 .footer-part.right .top .wrapper {
   height: 188px;
   padding: 40px 0 0 44px;
+}
+@media (max-width: 1262.98px) {
+  .footer-part.right .top .wrapper {
+    width: 500px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .top .wrapper {
+    width: 100%;
+    height: 200px;
+    padding-top: 28px;
+    display: block;
+  }
 }
 .footer-part.right .button {
   margin-bottom: 20px;
   width: 220px;
   height: 48px;
+}
+@media (max-width: 1262.98px) {
+  .footer-part.right .button {
+    width: 186px;
+    height: 46px;
+    margin: 0 42px 0 0;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .button {
+    margin: 0 auto 34px;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .links {
+    width: 232px;
+    margin: 0 auto;
+  }
 }
 .footer-part.right .link {
   color: #FFFFFF;
@@ -46,6 +100,11 @@
   text-decoration: none;
   font-size: 15px;
   line-height: 28px;
+}
+@media (max-width: 1262.98px) {
+  .footer-part.right .link {
+    font-weight: 300;
+  }
 }
 @media (hover: hover) {
   .footer-part.right .link:hover {
@@ -58,11 +117,47 @@
 .footer-part.right .bottom::before {
   background-color: #302E2D;
 }
+@media (max-width: 1262.98px) {
+  .footer-part.right .bottom::before {
+    left: 0;
+    width: auto;
+    right: -280px;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .bottom::before {
+    left: -280px;
+  }
+}
 .footer-part.right .bottom .wrapper {
   height: 100px;
   padding: 8px 0 0 44px;
 }
+@media (max-width: 1262.98px) {
+  .footer-part.right .bottom .wrapper {
+    width: 212px;
+    padding: 16px 0 0 30px;
+  }
+}
+@media (max-width: 750.98px) {
+  .footer-part.right .bottom .wrapper {
+    width: 100%;
+    padding: 20px 0 0;
+    display: flex;
+    justify-content: center;
+  }
+}
 .footer-part.right .logo {
   display: block;
   text-decoration: none;
+}
+.footer-part.right .logo svg {
+  display: block;
+  width: auto;
+  height: 69px;
+}
+@media (max-width: 1262.98px) {
+  .footer-part.right .logo svg {
+    height: 58px;
+  }
 }

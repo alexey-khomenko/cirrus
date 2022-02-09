@@ -71,16 +71,16 @@
   .link {
     @include link;
 
-    color: $color-gray-800;
+    color: $color-grey-200;
 
     @media (hover: hover) {
       &:hover {
-        color: $color-red-700;
+        color: $color-white;
       }
     }
 
     &:active {
-      color: $color-red-700;
+      color: $color-white;
     }
 
     &.search {
@@ -122,7 +122,7 @@
     display: flex;
     margin-left: 34px;
     margin-right: auto;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-lg) {
       margin-left: 30px;
@@ -141,7 +141,7 @@
       width: auto;
 
       @media (max-width: $media-grid-md) {
-        height: 24px;
+        height: 28px;
       }
     }
   }
@@ -149,7 +149,7 @@
   .center {
     width: 1213px;
     flex-shrink: 0;
-    background-color: $color-white;
+    background-color: $color-grey-700;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,23 +177,24 @@
     }
 
     input[type=search] {
+      background-color: $color-grey-700;
       height: 52px;
       width: 100%;
       padding-left: 20px;
       padding-right: 42px;
-      border: 1px solid $color-gray-800;
+      border: 1px solid $color-white;
       border-radius: 2px;
       font-family: $font-family-1;
       font-weight: 600;
       font-style: normal;
       font-size: 15px;
       line-height: 22px;
-      color: $color-gray-800;
+      color: $color-white;
 
       &::placeholder {
         opacity: 1;
         font-weight: 400;
-        color: $color-gray-300;
+        color: $color-grey-300;
       }
     }
 
@@ -219,22 +220,22 @@
     .link.lang {
       @media (pointer: coarse) {
         &:active svg {
-          color: $color-gray-800;
+          color: $color-white;
         }
       }
 
       @media (hover: hover) {
         &:hover svg {
-          color: $color-gray-800;
+          color: $color-white;
         }
       }
     }
 
     &[open] .link.lang {
-      color: $color-red-700;
+      color: $color-white;
 
       svg {
-        color: $color-gray-800;
+        color: $color-white;
       }
     }
   }

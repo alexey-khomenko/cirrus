@@ -98,7 +98,7 @@ body.body.closed {
 }
 @media (max-width: 750.98px) {
   .container-footer {
-    max-width: 340px;
+    max-width: 360px;
   }
 }
 
@@ -133,21 +133,26 @@ body.body.closed {
       -ms-user-select: none;
           user-select: none;
 }
+@media (max-width: 1262.98px) {
+  .button {
+    font-size: 15px;
+  }
+}
 .button.default {
-  background-color: #313138;
-  border-color: #313138;
+  background-color: #403E3D;
+  border-color: #403E3D;
   color: #FFFFFF;
 }
 @media (hover: hover) {
   .button.default:not(:disabled):hover {
-    background-color: #4A4A51;
-    border-color: #4A4A51;
+    background-color: #302E2D;
+    border-color: #302E2D;
     color: #FFFFFF;
   }
 }
 .button.default:not(:disabled):active {
-  background-color: #636368;
-  border-color: #636368;
+  background-color: #302E2D;
+  border-color: #302E2D;
   color: #FFFFFF;
 }
 .button.default-inverse {

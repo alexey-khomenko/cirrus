@@ -26,7 +26,7 @@
       font-weight: 600;
       font-size: 17px;
       line-height: 29px;
-      color: $color-gray-200;
+      color: $color-grey-200;
       white-space: nowrap;
 
       &:not(:first-child) {
@@ -73,7 +73,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: $color-gray-200;
+    color: $color-grey-200;
 
     @media (hover: hover) {
       &:hover {
@@ -86,12 +86,10 @@
     }
 
     .svg-left {
-      margin-bottom: 2px;
 
       @media (max-width: $media-grid-md) {
-        width: 60px;
-        margin-right: 35px;
-        margin-bottom: 0;
+        width: 70px;
+        margin-right: 24px;
       }
 
       @media (max-width: $media-grid-sm) {
@@ -100,8 +98,7 @@
     }
 
     .svg-right {
-      margin-top: 6px;
-      margin-left: 8px;
+      margin-top: 1px;
 
       @media (max-width: $media-grid-md) {
         display: none;
