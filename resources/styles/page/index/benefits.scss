@@ -1,80 +1,118 @@
 @import "././resources/styles/__/variables";
 
 .index.benefits {
-  h2 {
-    margin: 0 0 52px;
-    font-family: $font-family-1;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 58px;
-    letter-spacing: 0.02em;
-    color: $color-gray-900;
+  font-family: $font-family-1;
+  font-style: normal;
+  padding-top: 100px;
 
-    @media (max-width: $media-grid-md) {
-      margin-bottom: 40px;
-      font-size: 36px;
-      line-height: 44px;
-    }
+  @media (max-width: $media-grid-lg) {
+    padding-top: 88px;
+  }
 
-    @media (max-width: $media-grid-sm) {
-      margin-bottom: 40px;
-      font-size: 30px;
-      line-height: 36px;
-    }
+  @media (max-width: $media-grid-md) {
+    padding-top: 70px;
+  }
+
+  @media (max-width: $media-grid-sm) {
+    padding-top: 64px;
   }
 
   .benefits-tabs-head-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 72px;
+
+    @media (max-width: $media-grid-md) {
+      margin-bottom: 64px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-bottom: 48px;
+    }
   }
 
   .benefits-tabs-head {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
 
-    .button {
-      flex-grow: 1;
-      flex-basis: 33%;
-      height: 145px;
+    @media (max-width: $media-grid-md) {
+      height: 56px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      flex-direction: column;
+      height: 174px;
+    }
+
+    .tabs-button {
+      font-family: $font-family-1;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
 
       @media (max-width: $media-grid-md) {
-        height: 100px;
+        font-size: 16px;
+        line-height: 24px;
       }
 
-      @media (max-width: $media-grid-sm) {
-        height: 60px;
-        padding-left: 22px;
-        padding-right: 22px;
+      .left {
+        color: $color-orange;
       }
 
-      &:not(:first-child) {
-        margin-left: 16px;
+      .right {
+        margin-left: 12px;
+        color: $color-white;
       }
 
-      &.default {
+      &.active {
         cursor: default;
 
-        @media (hover: hover) {
-          &:hover {
-            background-color: $color-gray-800;
-            border-color: $color-gray-800;
-            color: $color-white;
+        .left {
+          color: $color-white;
+          font-weight: 600;
+          font-size: 62px;
+          line-height: 60px;
+
+          @media (max-width: $media-grid-md) {
+            font-size: 44px;
+            line-height: 42px;
           }
         }
 
-        &:active {
-          background-color: $color-gray-800;
-          border-color: $color-gray-800;
-          color: $color-white;
+        .right {
+          margin-left: 12px;
+          padding-bottom: 8px;
+          border-bottom: 2px solid $color-orange;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 40px;
+
+          @media (max-width: $media-grid-md) {
+            margin-left: 10px;
+            padding-bottom: 6px;
+            font-size: 24px;
+            line-height: 28px;
+          }
         }
+      }
+
+      @media (hover: hover) {
+        &:not(.active):hover .left {
+          color: $color-yellow;
+        }
+      }
+
+      &:not(.active):active .left {
+        color: $color-yellow;
       }
     }
   }
 
   .benefits-tabs-body-wrapper {
     margin-bottom: 146px;
-    overflow: hidden;
 
     @media (max-width: $media-grid-md) {
       margin-bottom: 80px;
@@ -82,22 +120,34 @@
 
     @media (max-width: $media-grid-sm) {
       margin-bottom: 90px;
-      max-width: $container-fixed-sm;
     }
   }
 
+  .benefits-tabs-body {
+
+  }
+
   .list {
+    width: 756px;
+    height: 854px;
+    margin-left: -35px;
+    border-radius: 3px;
+    background-color: $color-grey-400;
+    padding: 0 240px 0 68px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 0 -8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .items {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .item {
-    width: 366px;
-    padding: 0 8px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     position: relative;
 
     @media (max-width: $media-grid-sm) {
@@ -105,54 +155,21 @@
       padding-right: 18px;
     }
 
-    &.left {
-      margin-left: calc((100% - 32px)/3 - 173px);
-
-      @media (max-width: $media-grid-lg) {
-        margin-left: calc((100% - 32px)/3 - 172px);
-      }
-
-      @media (max-width: $media-grid-md) {
-        margin-left: auto;
-      }
-    }
-
-    &.right {
-      margin-right: calc((100% - 32px)/3 - 173px);
-
-      @media (max-width: $media-grid-lg) {
-        margin-right: calc((100% - 32px)/3 - 172px);
-      }
-
-      @media (max-width: $media-grid-md) {
-        margin-right: auto;
-      }
-    }
-
     svg {
       display: block;
-      margin: 62px auto 36px;
-      width: 42px;
-      height: 42px;
-      color: $color-gray-900;
-
-      @media (max-width: $media-grid-sm) {
-        margin: 0;
-        width: 32px;
-        height: 32px;
-        position: absolute;
-        top: 33px;
-        left: 18px;
-      }
+      height: 48px;
+      width: auto;
+      color: $color-white;
     }
 
     .title, .text {
+      display: none;
+
+
       width: 100%;
       max-width: 350px;
       margin: 0 auto;
-      font-family: $font-family-1;
-      font-style: normal;
-      color: $color-gray-800;
+      color: $color-white;
       text-align: center;
 
       @media (max-width: $media-grid-sm) {
@@ -162,6 +179,8 @@
     }
 
     .title {
+      margin: 16px 0 24px;
+
       min-height: 42px;
       font-weight: 600;
       font-size: 24px;
@@ -197,5 +216,18 @@
         min-height: auto;
       }
     }
+  }
+
+  .image {
+    width: 786px;
+    height: 678px;
+    object-fit: cover;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-66px, -50%);
+    background-color: darkseagreen;
   }
 }

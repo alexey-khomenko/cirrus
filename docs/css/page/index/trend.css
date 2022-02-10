@@ -61,6 +61,19 @@
   font-size: 20px;
   line-height: 26px;
 }
+@media (max-width: 1262.98px) {
+  .index.trend .tabs-button:not(.active) {
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.trend .tabs-button:not(.active) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
 @media (hover: hover) {
   .index.trend .tabs-button:not(.active):hover {
     border-bottom-color: #F46B1E;
@@ -123,7 +136,7 @@
   margin: -20px 0 -8px;
   width: 682px;
   padding: 78px 138px 78px 88px;
-  background-color: #313138;
+  background-color: #302E2D;
   border-radius: 3px;
 }
 @media (max-width: 1422.98px) {

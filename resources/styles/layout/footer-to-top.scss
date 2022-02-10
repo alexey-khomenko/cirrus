@@ -3,6 +3,7 @@
 .footer-to-top {
   display: none;
   left: 50%;
+  z-index: 10;
   transform: translateX(($container-fixed-xl * 0.5 + 10px));
 
   @media (max-width: $media-grid-lg) {

@@ -29,7 +29,7 @@
   .title-left {
     flex-shrink: 0;
     margin-right: 12px;
-    color: $color-gray-500;
+    color: $color-grey-200;
 
     @media (max-width: $media-grid-lg) {
       margin-bottom: 32px;
@@ -92,20 +92,20 @@
       content: "";
       position: absolute;
       width: 12px;
-      border-top: 3px solid $color-white;
-      border-bottom: 3px solid $color-white;
+      border-top: 3px solid $color-grey-200;
+      border-bottom: 3px solid $color-grey-200;
       top: 7px;
       bottom: -3px;
     }
 
     &::before {
       left: 0;
-      border-left: 3px solid $color-white;
+      border-left: 3px solid $color-grey-200;
     }
 
     &::after {
       right: 0;
-      border-right: 3px solid $color-white;
+      border-right: 3px solid $color-grey-200;
     }
   }
 
@@ -205,7 +205,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 3px;
-    background-color: $color-gray-700;
+    background-color: $color-grey-600;
     font-family: $font-family-1;
     font-weight: 400;
     font-style: normal;
@@ -232,17 +232,17 @@
     padding: 0 0 2px;
     width: 44px;
     line-height: 42px;
-    color: $color-gray-500;
+    color: $color-white;
     user-select: none;
 
     @media (hover: hover) {
       &:hover {
-        color: $color-white;
+        color: $color-grey-100;
       }
     }
 
     &:active {
-      color: $color-white;
+      color: $color-grey-100;
     }
   }
 
@@ -282,12 +282,12 @@
     &::before {
       z-index: 0;
       width: 100%;
-      border-color: $color-gray-700;
+      border-color: $color-grey-500;
     }
 
     .progress-line {
       z-index: 1;
-      border: 2px solid $color-gray-200;
+      border: 2px solid $color-orange;
     }
   }
 
@@ -300,9 +300,9 @@
     width: 24px;
     height: 24px;
     border-radius: 99999px;
-    border: 2px solid $color-white;
+    border: 2px solid $color-grey-100;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-    background-color: $color-gray-800;
+    background-color: $color-grey-500;
   }
 
   .progress-numbers {
@@ -322,7 +322,7 @@
     font-size: 15px;
     line-height: 26px;
     letter-spacing: 0.02em;
-    color: $color-gray-500;
+    color: $color-grey-100;
     text-align: center;
 
     &.active {

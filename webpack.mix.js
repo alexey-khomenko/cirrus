@@ -94,8 +94,8 @@ const styles = [
   'page/gallery/modal',
   'page/gallery/top',
 
+  'page/index/top',
   'page/index/slider',
-  'page/index/scroll',
   'page/index/benefits',
   'page/index/trend',
   'page/index/trend-left',

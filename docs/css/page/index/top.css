@@ -1,0 +1,113 @@
+.index.top {
+  font-family: "Proxima Nova", "Jost", sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+}
+.index.top .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 1300px;
+  padding-top: 100px;
+}
+@media (max-width: 1422.98px) {
+  .index.top .container {
+    height: 1180px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1262.98px) {
+  .index.top .container {
+    height: 1032px;
+    padding-top: 72px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.top .container {
+    height: 612px;
+    padding-top: 32px;
+  }
+}
+.index.top .h1 {
+  width: 500px;
+  padding: 32px 16px;
+  margin: 0 0 0 -16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgba(151, 151, 151, 0.4);
+}
+@media (max-width: 1262.98px) {
+  .index.top .h1 {
+    width: 410px;
+    padding: 26px 16px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.top .h1 {
+    margin-left: 0;
+    width: 280px;
+  }
+}
+.index.top .h1 strong {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+}
+@media (max-width: 1262.98px) {
+  .index.top .h1 strong {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.top .h1 strong {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.index.top .h1 small {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media (max-width: 1262.98px) {
+  .index.top .h1 small {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.top .h1 small {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.index.top .h2 {
+  width: 480px;
+  margin: 0 0 24px;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+}
+@media (max-width: 1262.98px) {
+  .index.top .h2 {
+    margin: 0 0 20px;
+    width: 500px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+@media (max-width: 750.98px) {
+  .index.top .h2 {
+    margin: 0 16px 16px;
+    width: auto;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

@@ -28,7 +28,7 @@
 .index.trend .right .title-left {
   flex-shrink: 0;
   margin-right: 12px;
-  color: #7C7C81;
+  color: #757575;
 }
 @media (max-width: 1422.98px) {
   .index.trend .right .title-left {
@@ -95,18 +95,18 @@
   content: "";
   position: absolute;
   width: 12px;
-  border-top: 3px solid #FFFFFF;
-  border-bottom: 3px solid #FFFFFF;
+  border-top: 3px solid #757575;
+  border-bottom: 3px solid #757575;
   top: 7px;
   bottom: -3px;
 }
 .index.trend .right .title-right::before {
   left: 0;
-  border-left: 3px solid #FFFFFF;
+  border-left: 3px solid #757575;
 }
 .index.trend .right .title-right::after {
   right: 0;
-  border-right: 3px solid #FFFFFF;
+  border-right: 3px solid #757575;
 }
 .index.trend .right .product-text {
   margin-bottom: 18px;
@@ -209,7 +209,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 3px;
-  background-color: #4A4A51;
+  background-color: #201B17;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -238,7 +238,7 @@
   padding: 0 0 2px;
   width: 44px;
   line-height: 42px;
-  color: #7C7C81;
+  color: #FFFFFF;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -246,11 +246,11 @@
 }
 @media (hover: hover) {
   .index.trend .right .quantity-minus:hover, .index.trend .right .quantity-plus:hover {
-    color: #FFFFFF;
+    color: #949494;
   }
 }
 .index.trend .right .quantity-minus:active, .index.trend .right .quantity-plus:active {
-  color: #FFFFFF;
+  color: #949494;
 }
 .index.trend .right .quantity-number {
   line-height: 32px;
@@ -287,11 +287,11 @@
 .index.trend .right .quantity-progress::before {
   z-index: 0;
   width: 100%;
-  border-color: #4A4A51;
+  border-color: #262423;
 }
 .index.trend .right .quantity-progress .progress-line {
   z-index: 1;
-  border: 2px solid #C7C7C8;
+  border: 2px solid #F46B1E;
 }
 .index.trend .right .progress-point {
   z-index: 3;
@@ -302,9 +302,9 @@
   width: 24px;
   height: 24px;
   border-radius: 99999px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #949494;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  background-color: #313138;
+  background-color: #262423;
 }
 .index.trend .right .progress-numbers {
   height: 28px;
@@ -322,7 +322,7 @@
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.02em;
-  color: #7C7C81;
+  color: #949494;
   text-align: center;
 }
 .index.trend .right .progress-number.active {

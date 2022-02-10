@@ -1,0 +1,109 @@
+@import "././resources/styles/__/variables";
+
+.index.top {
+  font-family: $font-family-1;
+  font-style: normal;
+  color: $color-white;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 1300px;
+    padding-top: 100px;
+
+    @media (max-width: $media-grid-lg) {
+      height: 1180px;
+      padding-top: 90px;
+    }
+
+    @media (max-width: $media-grid-md) {
+      height: 1032px;
+      padding-top: 72px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      height: 612px;
+      padding-top: 32px;
+    }
+  }
+
+  .h1 {
+    width: 500px;
+    padding: 32px 16px;
+    margin: 0 0 0 -16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(151, 151, 151, 0.4);
+
+    @media (max-width: $media-grid-md) {
+      width: 410px;
+      padding: 26px 16px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin-left: 0;
+      width: 280px;
+    }
+
+    strong {
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 60px;
+
+      @media (max-width: $media-grid-md) {
+        margin-bottom: 20px;
+        font-size: 48px;
+        line-height: 52px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    small {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+
+      @media (max-width: $media-grid-md) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      @media (max-width: $media-grid-sm) {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .h2 {
+    width: 480px;
+    margin: 0 0 24px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+
+    @media (max-width: $media-grid-md) {
+      margin: 0 0 20px;
+      width: 500px;
+      font-size: 48px;
+      line-height: 52px;
+    }
+
+    @media (max-width: $media-grid-sm) {
+      margin: 0 16px 16px;
+      width: auto;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+}
