@@ -3,7 +3,7 @@
 .index.trend {
 
   h2 {
-    margin: 116px 0 42px;
+    margin: 0 0 42px;
     font-family: $font-family-1;
     font-weight: 600;
     font-style: normal;
@@ -12,12 +12,12 @@
     color: $color-white;
 
     @media (max-width: $media-grid-md) {
-      margin: 102px 0 30px;
+      margin: 0 0 30px;
       font-size: 36px;
     }
 
     @media (max-width: $media-grid-sm) {
-      margin: 112px 0 48px;
+      margin: 0 0 48px;
       font-size: 30px;
       line-height: 36px;
     }
