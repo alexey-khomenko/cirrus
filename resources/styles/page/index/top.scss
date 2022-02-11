@@ -12,20 +12,24 @@
     align-items: flex-start;
     height: 1300px;
     padding-top: 100px;
+    padding-bottom: 100px;
 
     @media (max-width: $media-grid-lg) {
-      height: 1180px;
+      height: 1190px;
       padding-top: 90px;
+      padding-bottom: 80px;
     }
 
     @media (max-width: $media-grid-md) {
-      height: 1032px;
-      padding-top: 72px;
+      height: 1040px;
+      padding-top: 70px;
+      padding-bottom: 50px;
     }
 
     @media (max-width: $media-grid-sm) {
-      height: 612px;
-      padding-top: 32px;
+      height: 610px;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   }
 
@@ -87,20 +91,19 @@
 
   .h2 {
     width: 480px;
-    margin: 0 0 24px;
+    margin: 0;
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
 
     @media (max-width: $media-grid-md) {
-      margin: 0 0 20px;
       width: 500px;
       font-size: 48px;
       line-height: 52px;
     }
 
     @media (max-width: $media-grid-sm) {
-      margin: 0 16px 16px;
+      margin: 0 16px;
       width: auto;
       font-size: 32px;
       line-height: 40px;

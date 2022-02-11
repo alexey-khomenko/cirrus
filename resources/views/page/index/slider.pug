@@ -1,31 +1,48 @@
--
-  slides = {
-    0: {
-      title: 'Supreme',
-      subTitle: 'Коллекция',
-      link: 'collection.html',
-    },
-    1: {
-      title: 'Supreme 1',
-      subTitle: 'Коллекция 1',
-      link: 'collection.html',
-    },
-    2: {
-      title: 'Supreme 2',
-      subTitle: 'Коллекция 2',
-      link: 'collection.html',
-    },
-    3: {
-      title: 'Supreme 3',
-      subTitle: 'Коллекция 3',
-      link: 'collection.html',
-    },
-  };
-
 link(rel="stylesheet", href="css/page/index/slider.css")
 script(src="js/page/index/slider.js")
 section(class="index slider")
-  div(class="swiper")
-    div(class="swiper-wrapper")
-      each slide in slides
-        div(class="swiper-slide", data-sub-title=`${slide.subTitle}`, data-title=`${slide.title}`, data-link=`${slide.link}`)
+  div(class="container container-fixed")
+    button(type="button", class="arrow arrow-left")
+      include ../../partials/svg/slider-arrow-left
+    button(type="button", class="arrow arrow-right")
+      include ../../partials/svg/slider-arrow-right
+    div(class="bullets")
+      div(class="bullets__wrapper")
+        div(class="bullet", data-index="0")
+        div(class="bullet", data-index="1")
+
+    div(class="swiper")
+      div(class="swiper-wrapper")
+        div(class="swiper-slide")
+          div(class="slide__inner")
+            div(class="slide__item")
+              img(class="slide__img", alt="", src="images/slide-element-1.svg")
+              div(class="slide__text")
+                h6(class="slide__title")
+                  | 15 лет гарантии
+                p(class="slide__paragraph")
+                  | Гарантия на материал от производителя – лидера рынка
+            div(class="slide__item")
+              img(class="slide__img", alt="", src="images/slide-element-2.svg")
+              div(class="slide__text")
+                h6(class="slide__title")
+                  | Простота ухода
+                p(class="slide__paragraph")
+                  | Загрязнения удаляются влажной салфеткой
+
+        div(class="swiper-slide")
+          div(class="slide__inner")
+            div(class="slide__item")
+              img(class="slide__img", alt="", src="images/slide-element-1.svg")
+              div(class="slide__text")
+                h6(class="slide__title")
+                  | 15 лет гарантии
+                p(class="slide__paragraph")
+                  | Гарантия на материал от производителя – лидера рынка
+            div(class="slide__item")
+              img(class="slide__img", alt="", src="images/slide-element-2.svg")
+              div(class="slide__text")
+                h6(class="slide__title")
+                  | Простота ухода
+                p(class="slide__paragraph")
+                  | Загрязнения удаляются влажной салфеткой
