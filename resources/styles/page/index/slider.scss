@@ -1,8 +1,7 @@
 @import "././resources/styles/__/variables";
 
 .index.slider {
-  position: relative;
-  z-index: 1;
+  background-color: $color-black;
   color: $color-white;
   font-family: $font-family-1;
   font-style: normal;

@@ -1,6 +1,5 @@
 .index.benefits {
-  position: relative;
-  z-index: 1;
+  background-color: #000000;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   padding-top: 100px;

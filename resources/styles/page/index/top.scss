@@ -4,6 +4,7 @@
   font-family: $font-family-1;
   font-style: normal;
   color: $color-white;
+  background-color: $color-black;
 
   .container {
     display: flex;
@@ -34,6 +35,8 @@
   }
 
   .h1 {
+    position: relative;
+    z-index: 1;
     width: 500px;
     padding: 32px 16px;
     margin: 0 0 0 -16px;
@@ -90,6 +93,8 @@
   }
 
   .h2 {
+    position: relative;
+    z-index: 1;
     width: 480px;
     margin: 0;
     font-weight: 600;
@@ -108,5 +113,13 @@
       font-size: 32px;
       line-height: 40px;
     }
+  }
+
+  .bg {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
   }
 }

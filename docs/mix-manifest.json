@@ -165,6 +165,8 @@
     "/images/docs-pdf-company-2.png": "/images/docs-pdf-company-2.png",
     "/images/exploitation_and_care.png": "/images/exploitation_and_care.png",
     "/images/glue.png": "/images/glue.png",
+    "/images/slide-element-1.svg": "/images/slide-element-1.svg",
+    "/images/slide-element-2.svg": "/images/slide-element-2.svg",
     "/images/study.png": "/images/study.png",
     "/images/tmp-contacts-map.jpg": "/images/tmp-contacts-map.jpg",
     "/images/tmp-where_to_buy-map.jpg": "/images/tmp-where_to_buy-map.jpg",
@@ -321,6 +323,5 @@
     "/js/page/where_to_buy/top.js": "/js/page/where_to_buy/top.js",
     "/js/page/where_to_buy/bottom.js": "/js/page/where_to_buy/bottom.js",
     "/js/partials/docs/top.js": "/js/partials/docs/top.js",
-    "/images/slide-element-1.svg": "/images/slide-element-1.svg",
-    "/images/slide-element-2.svg": "/images/slide-element-2.svg"
+    "/images/index-top.png": "/images/index-top.png"
 }

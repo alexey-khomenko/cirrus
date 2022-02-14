@@ -2,6 +2,7 @@
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   color: #FFFFFF;
+  background-color: #000000;
 }
 .index.top .container {
   display: flex;
@@ -34,6 +35,8 @@
   }
 }
 .index.top .h1 {
+  position: relative;
+  z-index: 1;
   width: 500px;
   padding: 32px 16px;
   margin: 0 0 0 -16px;
@@ -93,6 +96,8 @@
   }
 }
 .index.top .h2 {
+  position: relative;
+  z-index: 1;
   width: 480px;
   margin: 0;
   font-weight: 600;
@@ -113,4 +118,11 @@
     font-size: 32px;
     line-height: 40px;
   }
+}
+.index.top .bg {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
 }

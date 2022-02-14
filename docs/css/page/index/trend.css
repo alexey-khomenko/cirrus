@@ -1,3 +1,15 @@
+.index.trend {
+  position: relative;
+}
+.index.trend::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  background: linear-gradient(180deg, black 0%, #1e1814 100%);
+}
 .index.trend h2 {
   margin: 0 0 42px;
   font-family: "Proxima Nova", "Jost", sans-serif;

@@ -1,6 +1,5 @@
 .index.slider {
-  position: relative;
-  z-index: 1;
+  background-color: #000000;
   color: #FFFFFF;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;

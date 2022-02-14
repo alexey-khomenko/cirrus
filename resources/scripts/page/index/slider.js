@@ -3,9 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
-    // autoplay: {
-    //   delay: 5000,
-    // },
+    // autoplay: { delay: 5000 },
     on: {
       activeIndexChange: function () {
         setTimeout(() => {
@@ -32,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!bullet) return true;
 
     swiper.slideToLoop(+bullet.dataset.index);
-    swiper.autoplay.start();
+    // swiper.autoplay.start();
   });
 
   document.addEventListener('click', function (e) {
@@ -40,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (!arrow) return true;
 
-    console.log('todo left');
+    swiper.slidePrev();
   });
 
   document.addEventListener('click', function (e) {
@@ -48,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (!arrow) return true;
 
-    console.log('todo right');
+    swiper.slideNext();
   });
 
 });
