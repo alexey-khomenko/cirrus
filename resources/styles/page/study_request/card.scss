@@ -3,7 +3,7 @@
 .study_request .card {
   position: relative;
   z-index: 1;
-  background-color: $color-gray-050;
+  background-color: $color-grey-300;
   padding: 72px 120px;
 
   @media (max-width: $media-grid-lg) {
@@ -20,7 +20,7 @@
 
   .title {
     margin-bottom: 30px;
-    color: $color-gray-900;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 30px;
@@ -103,12 +103,12 @@
     }
 
     &.error svg {
-      color: $color-red-700;
+      color: $color-red;
     }
   }
 
   .label {
-    color: $color-gray-500;
+    color: $color-white;
     font-size: 14px;
     line-height: 22px;
 
@@ -124,7 +124,7 @@
     height: auto;
     border: none;
     background-color: transparent;
-    color: $color-black;
+    color: $color-grey-100;
     font-weight: 600;
     font-size: 17px;
     line-height: 24px;
@@ -137,7 +137,7 @@
     &::placeholder {
       opacity: 1;
       font-weight: 400;
-      color: $color-gray-300;
+      color: $color-grey-300;
     }
   }
 
@@ -162,7 +162,7 @@
     cursor: pointer;
     display: inline-block;
     padding-left: 36px;
-    color: $color-black;
+    color: $color-grey-100;
     width: 450px;
     font-weight: 400;
     font-size: 17px;
@@ -183,17 +183,17 @@
     }
 
     &::after {
-      border-color: $color-red-700;
+      border-color: $color-grey-600;
     }
 
     @media (hover: hover) {
       &:hover::after {
-        border-color: $color-red-300;
+        border-color: $color-grey-300;
       }
     }
 
     &:active::after {
-      border-color: $color-red-300;
+      border-color: $color-grey-300;
     }
 
     &::before {
@@ -204,25 +204,32 @@
       width: 18px;
       height: 18px;
       border-radius: 2px;
-      border: 2px solid $color-gray-600;
+      border: 2px solid $color-grey-600;
+
     }
 
     a {
-      color: $color-red-700;
+      color: $color-orange;
       text-decoration: underline;
 
       @media (pointer: coarse) {
         &:active {
-          color: $color-red-300;
+          color: $color-red;
         }
       }
 
       @media (hover: hover) {
         &:hover {
-          color: $color-red-300;
+          color: $color-red;
         }
       }
     }
+  }
+
+  .checkbox-input:checked + .checkbox-label::before{
+
+    background-color: $color-blue;
+    border-color: $color-blue;
   }
 
   .checkbox-input:checked + .checkbox-label::after {
@@ -264,6 +271,7 @@
       margin-left: 5px;
       width: 20px;
       height: 20px;
+      color: $color-white;
 
       @media (max-width: $media-grid-sm) {
         width: 16px;

@@ -6,7 +6,7 @@
   font-size: 48px;
   line-height: 58px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .where_to_buy.top .h1 {
@@ -24,7 +24,7 @@
 }
 .where_to_buy.top .form {
   padding: 52px 0 48px;
-  background-color: #F8F8F8;
+  background-color: #262423;
 }
 @media (max-width: 1262.98px) {
   .where_to_buy.top .form {
@@ -70,7 +70,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -99,7 +99,7 @@
   width: 100%;
   border-radius: 2px;
   border: 1px solid transparent;
-  color: #27272B;
+  color: #403E3D;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -121,15 +121,15 @@
 }
 .where_to_buy.top input::-moz-placeholder {
   opacity: 1;
-  color: #7C7C81;
+  color: #757575;
 }
 .where_to_buy.top input:-ms-input-placeholder {
   opacity: 1;
-  color: #7C7C81;
+  color: #757575;
 }
 .where_to_buy.top input::placeholder {
   opacity: 1;
-  color: #7C7C81;
+  color: #757575;
 }
 .where_to_buy.top input:focus {
   border-color: #000000;
@@ -162,34 +162,34 @@
 }
 .where_to_buy.top .type-wrapper input[readonly] {
   cursor: pointer;
-  padding-left: 0;
+  padding-left: 15px;
   padding-right: 32px;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #000000;
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
 }
 @media (pointer: coarse) {
   .where_to_buy.top .type-wrapper input[readonly]:active::-moz-placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
   .where_to_buy.top .type-wrapper input[readonly]:active:-ms-input-placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
   .where_to_buy.top .type-wrapper input[readonly]:active::placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
 }
 @media (hover: hover) {
   .where_to_buy.top .type-wrapper input[readonly]:hover::-moz-placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
   .where_to_buy.top .type-wrapper input[readonly]:hover:-ms-input-placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
   .where_to_buy.top .type-wrapper input[readonly]:hover::placeholder {
-    color: #27272B;
+    color: #403E3D;
   }
 }
 .where_to_buy.top .type-wrapper svg {
@@ -197,17 +197,17 @@
   right: 8px;
   top: calc(50% - 1px);
   display: block;
-  color: #313138;
+  color: #757575;
   transform: translateY(-50%);
 }
 .where_to_buy.top .type-wrapper[open] input[readonly]::-moz-placeholder {
-  color: #DD2929;
+  color: #757575;
 }
 .where_to_buy.top .type-wrapper[open] input[readonly]:-ms-input-placeholder {
-  color: #DD2929;
+  color: #757575;
 }
 .where_to_buy.top .type-wrapper[open] input[readonly], .where_to_buy.top .type-wrapper[open] input[readonly]::placeholder {
-  color: #DD2929;
+  color: #757575;
 }
 .where_to_buy.top .type-wrapper[open] svg {
   transform: rotateX(180deg);
@@ -222,7 +222,7 @@
   left: 0;
   right: 0;
   padding: 20px 24px;
-  background: #FFFFFF;
+  background: #757575;
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.12);
 }
 .where_to_buy.top .option {
@@ -237,7 +237,7 @@
   font-size: 17px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .where_to_buy.top .option {
@@ -255,15 +255,15 @@
 }
 @media (pointer: coarse) {
   .where_to_buy.top .option:not(.active):active {
-    color: #7C7C81;
+    color: #262423;
   }
 }
 @media (hover: hover) {
   .where_to_buy.top .option:not(.active):hover {
-    color: #7C7C81;
+    color: #262423;
   }
 }
 .where_to_buy.top .option.active {
   cursor: default;
-  border-bottom: 1px solid #DD2929;
+  border-bottom: 1px solid #757575;
 }

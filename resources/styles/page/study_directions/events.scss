@@ -19,7 +19,7 @@
   }
 
   .event {
-    background-color: $color-gray-050;
+    background-color: $color-grey-400;
     padding: 62px 116px 66px 120px;
 
     @media (max-width: $media-grid-md) {
@@ -32,7 +32,7 @@
 
     .type {
       margin-bottom: 10px;
-      color: $color-gray-900;
+      color: $color-white;
       font-weight: 600;
       letter-spacing: 0.14em;
       text-transform: uppercase;
@@ -68,7 +68,7 @@
     .name {
       padding-right: 30px;
       width: 580px;
-      color: $color-gray-900;
+      color: $color-white;
       font-weight: 600;
       letter-spacing: 0.02em;
       font-size: 30px;
@@ -102,7 +102,7 @@
 
     .t {
       margin-top: 5px;
-      color: $color-gray-900;
+      color: $color-white;
       font-weight: 700;
       letter-spacing: 0.02em;
       font-size: 21px;
@@ -122,7 +122,7 @@
 
     .b {
       margin-top: 7px;
-      color: $color-gray-500;
+      color: $color-grey-100;
       font-weight: 400;
       letter-spacing: 0.02em;
       font-size: 15px;
@@ -143,7 +143,7 @@
     .text {
       margin-bottom: 32px;
       min-height: 104px;
-      color: $color-gray-900;
+      color:$color-grey-200;
       font-weight: 400;
       letter-spacing: 0.02em;
       font-size: 17px;
@@ -164,7 +164,7 @@
     }
 
     .spoiler {
-      border-bottom: 1px solid $color-gray-100;
+      border-bottom: 1px solid $color-grey-100;
       margin-bottom: 40px;
 
       @media (max-width: $media-grid-md) {
@@ -183,7 +183,7 @@
         justify-content: space-between;
 
         span {
-          color: $color-black;
+          color: $color-grey-100;
           font-weight: 600;
           letter-spacing: 0.02em;
           font-size: 17px;
@@ -205,6 +205,7 @@
           height: auto;
           margin-left: 8px;
           transform: rotate(180deg);
+          color:$color-white ;
         }
       }
 
@@ -213,7 +214,7 @@
         display: grid;
         grid-gap: 30px 20px;
         grid-template-columns: 220px 1fr;
-        color: $color-gray-900;
+        color: $color-white;
         letter-spacing: 0.02em;
 
         @media (max-width: $media-grid-md) {

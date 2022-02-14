@@ -8,7 +8,7 @@
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: $color-white;
+  background-color: $color-grey-600;
   padding: 50px;
 
   @media (max-width: $media-grid-md) {
@@ -40,22 +40,22 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
   }
 
   .close {
     flex-shrink: 0;
     margin-left: 4px;
-    color: $color-black;
+    color: $color-grey-200;
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-500;
+        color: $color-white;
       }
     }
 
     &:active {
-      color: $color-gray-500;
+      color: $color-white;
     }
   }
 
@@ -96,7 +96,7 @@
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
   }
 
   .row {
@@ -109,7 +109,7 @@
       font-weight: normal;
       font-size: 14px;
       line-height: 22px;
-      color: $color-gray-900;
+      color: $color-grey-200;
     }
 
     input, textarea {
@@ -119,34 +119,35 @@
       border-top: none;
       border-left: none;
       border-right: none;
-      border-bottom: 1px solid $color-black;
+      border-bottom: 1px solid $color-white;
+      background-color: transparent;
       font-family: $font-family-1;
       font-style: normal;
       font-weight: 600;
       font-size: 17px;
       line-height: 24px;
-      color: $color-black;
+      color: $color-white;
       letter-spacing: 0.02em;
 
       &.error {
-        border-bottom-color: $color-red-700;
+        border-bottom-color: $color-red;
       }
 
       &::placeholder {
         opacity: 1;
         font-weight: 400;
-        color: $color-gray-500;
+        color: $color-grey-100;
       }
 
       @media (pointer: coarse) {
         &:active::placeholder {
-          color: $color-gray-900;
+          color: $color-grey-200;
         }
       }
 
       @media (hover: hover) {
         &:hover::placeholder {
-          color: $color-gray-900;
+          color: $color-grey-200;
         }
       }
     }
@@ -176,7 +177,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 34px;
-    color: $color-black;
+    color: $color-white;
   }
 
   .checkboxes {
@@ -187,6 +188,11 @@
 
   input[type=checkbox] {
     display: none;
+  }
+
+  input[type=checkbox]:checked + .checkbox::before {
+    background-color: $color-blue;
+    border-color: $color-blue;
   }
 
   input[type=checkbox]:checked + .checkbox::after {
@@ -206,18 +212,18 @@
     position: relative;
 
     &::after {
-      border-color: $color-red-700;
+      border-color: $color-grey-600;
     }
 
     @media (pointer: coarse) {
       &:active::after {
-        border-color: $color-red-300;
+        border-color: $color-grey-300;
       }
     }
 
     @media (hover: hover) {
       &:hover::after {
-        border-color: $color-red-300;
+        border-color: $color-grey-300;
       }
     }
 
@@ -228,7 +234,7 @@
       width: 18px;
       height: 18px;
       border-radius: 2px;
-      border: 2px solid $color-gray-600;
+      border: 2px solid $color-grey-100;
     }
 
     label {
@@ -239,7 +245,7 @@
       padding-left: 36px;
       font-family: $font-family-1;
       font-style: normal;
-      color: $color-black;
+      color: $color-grey-100;
     }
   }
 
@@ -279,17 +285,17 @@
     }
 
     a {
-      color: $color-red-700;
+      color: $color-blue;
       text-decoration: underline;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-red-300;
+          color: $color-lila;
         }
       }
 
       &:active {
-        color: $color-red-300;
+        color: $color-lila;
       }
     }
   }
@@ -319,7 +325,7 @@
 
   .select[open] {
     input[readonly] {
-      color: $color-red-700;
+      color: $color-red;
     }
 
     svg {
@@ -337,7 +343,7 @@
     left: 0;
     right: 0;
     padding: 20px 24px;
-    background: $color-white;
+    background: $color-grey-300;
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.12);
   }
 
@@ -353,7 +359,7 @@
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-grey-100;
 
     &:not(:first-child) {
       margin-top: 10px;
@@ -361,19 +367,19 @@
 
     @media (pointer: coarse) {
       &:not(.active):active {
-        color: $color-gray-500;
+        color: $color-white;
       }
     }
 
     @media (hover: hover) {
       &:not(.active):hover {
-        color: $color-gray-500;
+        color: $color-white;
       }
     }
 
     &.active {
       cursor: default;
-      border-bottom: 1px solid $color-red-700;
+      border-bottom: 1px solid $color-red;
     }
   }
 

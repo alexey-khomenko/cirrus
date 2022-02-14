@@ -38,23 +38,23 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
   }
 
   .close {
     flex-shrink: 0;
     margin-left: 4px;
-    color: $color-black;
+    color: $color-white;
 
     @media (pointer: coarse) {
       &:active {
-        color: $color-gray-500;
+        color: $color-grey-300;
       }
     }
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-500;
+        color: $color-grey-300;
       }
     }
   }

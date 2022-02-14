@@ -38,11 +38,12 @@
 .study_request .container::before {
   content: "";
   position: absolute;
-  background-color: #313138;
+  background-color: #262423;
   bottom: 0;
   top: -100px;
   right: -130px;
   width: 550px;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .study_request .container::before {
@@ -72,6 +73,7 @@
   display: flex;
   flex-direction: column;
   font-weight: 600;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .study_request .h1 {
@@ -91,10 +93,10 @@
 }
 .study_request .h1 .title {
   margin-bottom: 18px;
-  color: #000000;
   letter-spacing: 0.02em;
   font-size: 48px;
   line-height: 58px;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .study_request .h1 .title {
@@ -111,7 +113,7 @@
 }
 .study_request .h1 .subtitle {
   text-transform: uppercase;
-  color: #AEAEB1;
+  color: #FFFFFF;
   letter-spacing: 0.14em;
   font-size: 13px;
   line-height: 18px;
@@ -132,11 +134,11 @@
   z-index: 1;
   margin: 0 0 40px;
   width: 550px;
-  color: #27272B;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
   line-height: 36px;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .study_request .h2 {
@@ -159,7 +161,7 @@
   }
 }
 .study_request .text {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -249,7 +251,7 @@
 }
 .study_request .row .b {
   margin-top: 7px;
-  color: #AEAEB1;
+  color: #403E3D;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 15px;
@@ -264,7 +266,7 @@
 }
 @media (max-width: 750.98px) {
   .study_request .row .b {
-    color: #7C7C81;
+    color: #403E3D;
     font-size: 13px;
     line-height: 24px;
   }

@@ -5,7 +5,7 @@
 }
 .study .h1 {
   font-weight: 600;
-  color: #000000;
+  color: #FFFFFF;
   margin: 0 0 54px;
   font-size: 48px;
   line-height: 58px;
@@ -25,7 +25,7 @@
 }
 .study .h2 {
   font-weight: 600;
-  color: #27272B;
+  color: #FFFFFF;
   margin: 0 0 40px;
   font-size: 30px;
   line-height: 36px;
@@ -45,7 +45,7 @@
 }
 .study .h3 {
   font-weight: 600;
-  color: #000000;
+  color: #FFFFFF;
   margin: 0 0 16px;
   font-size: 24px;
   line-height: 30px;
@@ -102,7 +102,7 @@
 }
 .study .row-top::before {
   content: "";
-  background-color: #313138;
+  background-color: #302E2D;
   position: absolute;
   z-index: 0;
   right: -140px;
@@ -229,7 +229,7 @@
   font-weight: 400;
   position: relative;
   z-index: 1;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 17px;
   line-height: 32px;
 }

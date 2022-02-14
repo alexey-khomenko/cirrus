@@ -19,7 +19,7 @@
   padding: 19px 29px 9px;
   width: 542px;
   border: 3px solid transparent;
-  background-color: #E0E0E1;
+  background-color: #403E3D;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
 }
@@ -48,7 +48,7 @@
 }
 .where_to_buy.bottom .dealer .title {
   margin-bottom: 6px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
@@ -67,11 +67,11 @@
   }
 }
 .where_to_buy.bottom .dealer.active .title {
-  color: #DD2929;
+  color: #F4511E;
 }
 .where_to_buy.bottom .dealer .subtitle {
   margin-bottom: 20px;
-  color: #7C7C81;
+  color: #000000;
   font-weight: 600;
   font-size: 13px;
   line-height: 18px;
@@ -102,7 +102,7 @@
   position: relative;
   padding-left: 32px;
   margin-bottom: 10px;
-  color: #000000;
+  color: #302E2D;
 }
 @media (max-width: 750.98px) {
   .where_to_buy.bottom .dealer .items {
@@ -146,9 +146,9 @@
 }
 @media (hover: hover) {
   .where_to_buy.bottom .dealer .item a:hover {
-    color: #636368;
+    color: #403E3D;
   }
 }
 .where_to_buy.bottom .dealer .item a:active {
-  color: #313138;
+  color: #403E3D;
 }

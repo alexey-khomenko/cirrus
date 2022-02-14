@@ -8,7 +8,7 @@ mix
   .copyDirectory('resources/fonts/*.*', 'docs/fonts')
   .copyDirectory('resources/favicons/*.*', 'docs')
   .pug('resources/views/pages/*.pug', 'docs', {
-    excludePath: 'resources\\views\\pages',
+    excludePath: 'resources/views/pages',
     pug: {
       pretty: true,
     },

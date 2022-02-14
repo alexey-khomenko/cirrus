@@ -7,7 +7,7 @@
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: $color-white;
+  background-color: $color-grey-400;
   padding: 50px;
 
   @media (max-width: $media-grid-md) {
@@ -38,7 +38,7 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-sm) {
       font-size: 22px;
@@ -48,17 +48,17 @@
   .close:not(.button) {
     flex-shrink: 0;
     margin-left: 4px;
-    color: $color-black;
+    color: $color-grey-200;;
 
     @media (pointer: coarse) {
       &:active {
-        color: $color-gray-500;
+        color: $color-white;
       }
     }
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-500;
+        color: $color-white;
       }
     }
   }

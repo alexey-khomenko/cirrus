@@ -5,7 +5,7 @@
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: #302E2D;
   padding: 50px;
 }
 @media (max-width: 1262.98px) {
@@ -36,7 +36,7 @@
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 750.98px) {
   .modal-popup.application_success .h4 {
@@ -46,16 +46,16 @@
 .modal-popup.application_success .close:not(.button) {
   flex-shrink: 0;
   margin-left: 4px;
-  color: #000000;
+  color: #757575;
 }
 @media (pointer: coarse) {
   .modal-popup.application_success .close:not(.button):active {
-    color: #7C7C81;
+    color: #FFFFFF;
   }
 }
 @media (hover: hover) {
   .modal-popup.application_success .close:not(.button):hover {
-    color: #7C7C81;
+    color: #FFFFFF;
   }
 }
 .modal-popup.application_success .body .button {

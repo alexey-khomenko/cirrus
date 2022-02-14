@@ -25,7 +25,7 @@
       height: 48px;
       border-top: 2px solid transparent;
       border-bottom: 2px solid transparent;
-      color: $color-gray-500;
+      color: $color-grey-300;
       font-family: $font-family-1;
       font-weight: 600;
       font-style: normal;
@@ -44,8 +44,8 @@
 
       &.active {
         cursor: default;
-        border-bottom-color: $color-red-700;
-        color: $color-black;
+        border-bottom-color: $color-red;
+        color: $color-white;
       }
     }
   }
@@ -104,7 +104,7 @@
     font-weight: 600;
     font-style: normal;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-lg) {
       width: 480px;
@@ -139,7 +139,7 @@
       }
 
       span {
-        color: $color-red-700;
+        color: $color-red;
       }
     }
   }

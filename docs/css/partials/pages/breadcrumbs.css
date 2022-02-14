@@ -25,18 +25,18 @@
 .breadcrumbs li a {
   font-weight: 400;
   text-decoration: none;
-  color: #7C7C81;
+  color: #757575;
 }
 @media (hover: hover) {
   .breadcrumbs li a:hover {
-    color: #000000;
+    color: #FFFFFF;
   }
 }
 .breadcrumbs li a:active {
-  color: #000000;
+  color: #FFFFFF;
 }
 .breadcrumbs li svg {
-  color: #7C7C81;
+  color: #757575;
   margin: 0 20px;
 }
 @media (max-width: 750.98px) {
@@ -46,5 +46,5 @@
 }
 .breadcrumbs li span {
   font-weight: 600;
-  color: #ED8585;
+  color: #FFFFFF;
 }

@@ -1,19 +1,19 @@
 .study--bottom {
-  background-color: #F8F8F8;
-  padding: 36px 0 84px;
-  color: #27272B;
+  background-color: #201B17;
+  padding: 72px 0 72px;
+  color: #FFFFFF;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   letter-spacing: 0.02em;
 }
 @media (max-width: 1262.98px) {
   .study--bottom {
-    padding: 50px 0 70px;
+    padding: 70px 0 70px;
   }
 }
 @media (max-width: 750.98px) {
   .study--bottom {
-    padding: 60px 0 90px;
+    padding: 90px 0 90px;
   }
 }
 .study--bottom .row {
@@ -83,12 +83,12 @@
 }
 .study--bottom span {
   display: block;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 400;
 }
 .study--bottom strong {
   display: block;
-  color: #DD2929;
+  color: #F4511E;
   font-weight: 600;
 }
 .study--bottom svg {
@@ -97,5 +97,5 @@
   left: 0;
   width: 20px;
   height: 20px;
-  color: #27272B;
+  color: #FFFFFF;
 }

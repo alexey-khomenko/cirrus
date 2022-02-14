@@ -1,7 +1,7 @@
 .study_request .card {
   position: relative;
   z-index: 1;
-  background-color: #F8F8F8;
+  background-color: #403E3D;
   padding: 72px 120px;
 }
 @media (max-width: 1422.98px) {
@@ -21,7 +21,7 @@
 }
 .study_request .card .title {
   margin-bottom: 30px;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -107,10 +107,10 @@
   right: 3px;
 }
 .study_request .card .field.error svg {
-  color: #DD2929;
+  color: #F4511E;
 }
 .study_request .card .label {
-  color: #7C7C81;
+  color: #FFFFFF;
   font-size: 14px;
   line-height: 22px;
 }
@@ -126,7 +126,7 @@
   height: auto;
   border: none;
   background-color: transparent;
-  color: #000000;
+  color: #949494;
   font-weight: 600;
   font-size: 17px;
   line-height: 24px;
@@ -140,17 +140,17 @@
 .study_request .card .input::-moz-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .study_request .card .input:-ms-input-placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .study_request .card .input::placeholder {
   opacity: 1;
   font-weight: 400;
-  color: #AEAEB1;
+  color: #403E3D;
 }
 .study_request .card .foot {
   display: flex;
@@ -172,7 +172,7 @@
   cursor: pointer;
   display: inline-block;
   padding-left: 36px;
-  color: #000000;
+  color: #949494;
   width: 450px;
   font-weight: 400;
   font-size: 17px;
@@ -196,15 +196,15 @@
   }
 }
 .study_request .card .checkbox-label::after {
-  border-color: #DD2929;
+  border-color: #201B17;
 }
 @media (hover: hover) {
   .study_request .card .checkbox-label:hover::after {
-    border-color: #ED8585;
+    border-color: #403E3D;
   }
 }
 .study_request .card .checkbox-label:active::after {
-  border-color: #ED8585;
+  border-color: #403E3D;
 }
 .study_request .card .checkbox-label::before {
   content: "";
@@ -214,21 +214,25 @@
   width: 18px;
   height: 18px;
   border-radius: 2px;
-  border: 2px solid #636368;
+  border: 2px solid #201B17;
 }
 .study_request .card .checkbox-label a {
-  color: #DD2929;
+  color: #F46B1E;
   text-decoration: underline;
 }
 @media (pointer: coarse) {
   .study_request .card .checkbox-label a:active {
-    color: #ED8585;
+    color: #F4511E;
   }
 }
 @media (hover: hover) {
   .study_request .card .checkbox-label a:hover {
-    color: #ED8585;
+    color: #F4511E;
   }
+}
+.study_request .card .checkbox-input:checked + .checkbox-label::before {
+  background-color: #1EA7F4;
+  border-color: #1EA7F4;
 }
 .study_request .card .checkbox-input:checked + .checkbox-label::after {
   content: "";
@@ -271,6 +275,7 @@
   margin-left: 5px;
   width: 20px;
   height: 20px;
+  color: #FFFFFF;
 }
 @media (max-width: 750.98px) {
   .study_request .card .bottom_btn svg {

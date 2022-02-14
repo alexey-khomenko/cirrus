@@ -26,21 +26,21 @@
     a {
       font-weight: 400;
       text-decoration: none;
-      color: $color-gray-500;
+      color: $color-grey-200;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-black;
+          color: $color-white;
         }
       }
 
       &:active {
-        color: $color-black;
+        color: $color-white;
       }
     }
 
     svg {
-      color: #7C7C81;
+      color: $color-grey-200;
       margin: 0 20px;
 
       @media (max-width: $media-grid-sm) {
@@ -50,7 +50,7 @@
 
     span {
       font-weight: 600;
-      color: $color-red-300;
+      color: $color-white;
     }
   }
 }

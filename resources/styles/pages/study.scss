@@ -7,7 +7,7 @@
 
   .h1 {
     font-weight: 600;
-    color: $color-black;
+    color: $color-white;
     margin: 0 0 54px;
     font-size: 48px;
     line-height: 58px;
@@ -26,7 +26,7 @@
 
   .h2 {
     font-weight: 600;
-    color: $color-gray-900;
+    color: $color-white;
     margin: 0 0 40px;
     font-size: 30px;
     line-height: 36px;
@@ -45,7 +45,7 @@
 
   .h3 {
     font-weight: 600;
-    color: $color-black;
+    color: $color-white;
     margin: 0 0 16px;
     font-size: 24px;
     line-height: 30px;
@@ -98,7 +98,7 @@
 
     &-top::before {
       content: "";
-      background-color: $color-gray-800;
+      background-color: $color-grey-400;
       position: absolute;
       z-index: 0;
       right: -140px;
@@ -219,7 +219,7 @@
     font-weight: 400;
     position: relative;
     z-index: 1;
-    color: $color-black;
+    color: $color-white;
     font-size: 17px;
     line-height: 32px;
 

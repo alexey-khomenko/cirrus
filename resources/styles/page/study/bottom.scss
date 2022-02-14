@@ -1,19 +1,19 @@
 @import "././resources/styles/__/variables";
 
 .study--bottom {
-  background-color: $color-gray-050;
-  padding: 36px 0 84px;
-  color: $color-gray-900;
+  background-color: $color-grey-600;
+  padding: 72px 0 72px;
+  color: $color-white;
   font-family: $font-family-1;
   font-style: normal;
   letter-spacing: 0.02em;
 
   @media (max-width: $media-grid-md) {
-    padding: 50px 0 70px;
+    padding: 70px 0 70px;
   }
 
   @media (max-width: $media-grid-sm) {
-    padding: 60px 0 90px;
+    padding: 90px 0 90px;
   }
 
   .row {
@@ -79,13 +79,13 @@
 
   span {
     display: block;
-    color: $color-gray-900;
+    color: $color-white;
     font-weight: 400;
   }
 
   strong {
     display: block;
-    color: $color-red-700;
+    color: $color-red;
     font-weight: 600;
   }
 
@@ -95,6 +95,6 @@
     left: 0;
     width: 20px;
     height: 20px;
-    color: $color-gray-900;
+    color: $color-white;
   }
 }

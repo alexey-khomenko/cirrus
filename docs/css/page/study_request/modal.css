@@ -36,21 +36,21 @@
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
 }
 .modal-popup.study_request_modal .close {
   flex-shrink: 0;
   margin-left: 4px;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (pointer: coarse) {
   .modal-popup.study_request_modal .close:active {
-    color: #7C7C81;
+    color: #403E3D;
   }
 }
 @media (hover: hover) {
   .modal-popup.study_request_modal .close:hover {
-    color: #7C7C81;
+    color: #403E3D;
   }
 }
 .modal-popup.study_request_modal .body .button {
