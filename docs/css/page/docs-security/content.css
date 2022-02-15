@@ -88,6 +88,7 @@
   letter-spacing: 0.02em;
   font-size: 17px;
   line-height: 24px;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .docs-security.content .card-title {
