@@ -48,7 +48,7 @@
 }
 .docs-sizes.content .text {
   margin-bottom: 10px;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -68,7 +68,7 @@
 }
 .docs-sizes.content .title {
   margin-bottom: 20px;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 700;
   letter-spacing: 0.02em;
   font-size: 21px;
@@ -95,7 +95,7 @@
   border-bottom: 1px solid #E0E0E1;
   margin: 0;
   text-align: left;
-  color: #7C7C81;
+  color: #949494;
   font-weight: 400;
   letter-spacing: 0.01em;
   font-size: 13px;
@@ -110,7 +110,7 @@
   padding: 15px 0 0;
   margin: 0;
   text-align: left;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 15px;

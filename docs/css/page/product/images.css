@@ -27,7 +27,7 @@
   right: 100px;
   z-index: 0;
   width: 612px;
-  background-color: #313138;
+  background-color: #403E3D;
 }
 @media (max-width: 1422.98px) {
   .product.images::before {

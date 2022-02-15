@@ -16,6 +16,7 @@
   letter-spacing: 0.02em;
   font-size: 24px;
   line-height: 30px;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .docs-guarantee.content .links span, .docs-guarantee.content .links a {
@@ -32,16 +33,16 @@
 }
 .docs-guarantee.content .links span {
   color: #000000;
-  border-bottom: 2px solid #DD2929;
+  border-bottom: 2px solid #F4511E;
 }
 .docs-guarantee.content .links a {
   text-decoration: none;
-  color: #7C7C81;
+  color: #403E3D;
   padding-bottom: 2px;
 }
 @media (hover: hover) {
   .docs-guarantee.content .links a:hover {
-    color: #313138;
+    color: #302E2D;
   }
 }
 .docs-guarantee.content .links a:active {
@@ -50,8 +51,8 @@
 .docs-guarantee.content .info {
   margin: 45px 0;
   padding: 40px;
-  border: 2px solid #E0E0E1;
-  color: #000000;
+  border: 2px solid #949494;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .docs-guarantee.content .info {
@@ -91,7 +92,7 @@
 }
 .docs-guarantee.content h2 {
   margin: 45px 0 20px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 700;
   letter-spacing: 0.02em;
   font-size: 21px;
@@ -113,7 +114,7 @@
 }
 .docs-guarantee.content p {
   margin: 0 0 16px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: normal;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -149,7 +150,7 @@
   padding: 0 0 0 26px;
   margin: 0 0 20px;
   position: relative;
-  color: #000000;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   font-size: 15px;
   line-height: 28px;
@@ -167,7 +168,7 @@
   left: 3px;
   width: 11px;
   height: 11px;
-  border: 1px solid #27272B;
+  border: 1px solid #302E2D;
   transform: rotate(45deg);
 }
 @media (max-width: 750.98px) {
@@ -178,8 +179,8 @@
 .docs-guarantee.content dl {
   margin: 45px 0;
   padding: 40px;
-  background-color: #F8F8F8;
-  color: #000000;
+  background-color: #302E2D;
+  color: #FFFFFF;
   display: grid;
   grid-gap: 20px 15px;
   grid-template-columns: 180px 1fr;

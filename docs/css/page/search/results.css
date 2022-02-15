@@ -3,7 +3,7 @@
 }
 .search.results .h2 {
   margin: 0 0 32px;
-  color: #000000;
+  color: #FFFFFF;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -50,11 +50,12 @@
 }
 @media (hover: hover) {
   .search.results .a:hover {
-    border-color: #7C7C81;
+    border-color: #757575;
+    background-color: #949494;
   }
 }
 .search.results .a:active {
-  border-color: #4A4A51;
+  border-color: #403E3D;
 }
 .search.results .a .l {
   flex-shrink: 0;
@@ -102,7 +103,7 @@
 }
 @media (hover: hover) {
   .search.results .a:hover .r {
-    color: #313138;
+    color: #403E3D;
   }
 }
 .search.results .c .title, .search.results .c .subtitle, .search.results .c .text {
@@ -122,7 +123,7 @@
   font-size: 21px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .search.results .c .title {
@@ -143,7 +144,7 @@
   line-height: 18px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #7C7C81;
+  color: #403E3D;
 }
 @media (max-width: 1262.98px) {
   .search.results .c .subtitle {
@@ -156,7 +157,7 @@
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.01em;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .search.results .c .text {

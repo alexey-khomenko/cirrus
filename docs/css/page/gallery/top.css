@@ -10,6 +10,7 @@
   letter-spacing: 0.02em;
   font-size: 48px;
   line-height: 58px;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .gallery.top .h1 {
@@ -73,4 +74,7 @@
 .gallery.top .tile span {
   border-bottom: 2px solid #DD2929;
   color: #000000;
+}
+.gallery.top .tile span {
+  color: #FFFFFF !important;
 }

@@ -6,7 +6,7 @@
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: $color-white;
+  background-color: $color-grey-400;
   padding: 26px;
 
   @media (max-width: $media-grid-md) {
@@ -35,12 +35,12 @@
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-600;
+        color: $color-grey-200;
       }
     }
 
     &:active {
-      color: $color-gray-900;
+      color: $color-grey-300;
     }
   }
 

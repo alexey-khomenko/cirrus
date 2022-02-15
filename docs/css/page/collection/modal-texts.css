@@ -33,7 +33,7 @@
   font-weight: normal;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #7C7C81;
+  color: #FFFFFF;
   margin-bottom: 2px;
   font-size: 11px;
   line-height: 16px;
@@ -55,7 +55,7 @@
 .modal-popup.collection_modal .texts .collection-title {
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: #7C7C81;
+  color: #FFFFFF;
   font-size: 48px;
   line-height: 58px;
 }
@@ -83,7 +83,7 @@
   font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #27272B;
+  color: #FFFFFF;
   margin-bottom: 16px;
   font-size: 11px;
   line-height: 16px;
@@ -104,7 +104,7 @@
 .modal-popup.collection_modal .texts .product-title {
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: #27272B;
+  color: #FFFFFF;
   font-size: 30px;
   line-height: 36px;
 }
@@ -126,7 +126,7 @@
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  color: #27272B;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .modal-popup.collection_modal .texts .text {
@@ -150,7 +150,7 @@
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 13px;
   line-height: 44px;
 }
@@ -190,7 +190,7 @@
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  color: #7C7C81;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .modal-popup.collection_modal .texts .properties div {

@@ -50,7 +50,7 @@
   &::before {
     display: block;
     content: "";
-    background-color: $color-gray-050;
+    background-color: $color-grey-400;
     position: absolute;
     z-index: 0;
     top: 0;
@@ -103,7 +103,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: $color-black;
+    color: $color-white;
 
     svg {
       display: block;
@@ -142,21 +142,21 @@
   }
 
   .link span {
-    color: $color-red-700;
+    color: $color-orange;
   }
 
   .lvl-1 a, .lvl-2 a {
     text-decoration: none;
-    color: $color-black;
+    color: $color-white;
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-700;
+        color: $color-grey-200;
       }
     }
 
     &:active {
-      color: $color-gray-500;
+      color: $color-grey-200;
     }
   }
 }

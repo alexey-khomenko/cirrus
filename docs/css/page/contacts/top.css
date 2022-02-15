@@ -17,6 +17,7 @@
   font-size: 48px;
   line-height: 58px;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .contacts.top .h1 {
@@ -41,7 +42,7 @@
   padding: 30px;
   width: 574px;
   border: 2px solid #DD2929;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;

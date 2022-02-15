@@ -14,6 +14,7 @@
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .contacts .h2 {
@@ -27,6 +28,7 @@
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .contacts .h3 {
@@ -46,6 +48,7 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .contacts .text {
@@ -73,6 +76,7 @@
   grid-gap: 24px 16px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, auto);
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .contacts .tel_and_email {
@@ -109,7 +113,7 @@
   }
 }
 .contacts .tel_and_email a {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
@@ -130,9 +134,9 @@
 }
 @media (hover: hover) {
   .contacts .tel_and_email a:hover {
-    color: #636368;
+    color: #403E3D;
   }
 }
 .contacts .tel_and_email a:active {
-  color: #313138;
+  color: #403E3D;
 }

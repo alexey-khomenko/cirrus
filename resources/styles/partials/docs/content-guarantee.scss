@@ -18,7 +18,7 @@
       letter-spacing: 0.02em;
       font-size: 24px;
       line-height: 30px;
-
+      color: $color-white;
       @media (max-width: $media-grid-md) {
         height: 44px;
         margin-left: 0;
@@ -33,17 +33,17 @@
 
     span {
       color: $color-black;
-      border-bottom: 2px solid $color-red-700;
+      border-bottom: 2px solid $color-red;
     }
 
     a {
       text-decoration: none;
-      color: $color-gray-500;
+      color: $color-grey-300;
       padding-bottom: 2px;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-gray-800;
+          color: $color-grey-400;
         }
       }
 
@@ -56,8 +56,8 @@
   .info {
     margin: 45px 0;
     padding: 40px;
-    border: 2px solid $color-gray-100;
-    color: $color-black;
+    border: 2px solid $color-grey-100;
+    color: $color-white;
 
     @media (max-width: $media-grid-md) {
       margin: 40px 0;
@@ -96,7 +96,7 @@
 
   h2 {
     margin: 45px 0 20px;
-    color: $color-black;
+    color: $color-white;
     font-weight: 700;
     letter-spacing: 0.02em;
     font-size: 21px;
@@ -117,7 +117,7 @@
 
   p {
     margin: 0 0 16px;
-    color: $color-black;
+    color: $color-white;
     font-weight: normal;
     letter-spacing: 0.02em;
     font-size: 17px;
@@ -150,7 +150,7 @@
     padding: 0 0 0 26px;
     margin: 0 0 20px;
     position: relative;
-    color: $color-black;
+    color: $color-white;
     letter-spacing: 0.02em;
     font-size: 15px;
     line-height: 28px;
@@ -167,7 +167,7 @@
       left: 3px;
       width: 11px;
       height: 11px;
-      border: 1px solid $color-gray-900;
+      border: 1px solid $color-grey-400;
       transform: rotate(45deg);
 
       @media (max-width: $media-grid-sm) {
@@ -179,8 +179,8 @@
   dl {
     margin: 45px 0;
     padding: 40px;
-    background-color: $color-gray-050;
-    color: $color-black;
+    background-color: $color-grey-400;
+    color: $color-white;
     display: grid;
     grid-gap: 20px 15px;
     grid-template-columns: 180px 1fr;

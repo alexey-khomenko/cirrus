@@ -54,7 +54,7 @@
 .doc.middle .docs.aside::before {
   display: block;
   content: "";
-  background-color: #F8F8F8;
+  background-color: #302E2D;
   position: absolute;
   z-index: 0;
   top: 0;
@@ -105,7 +105,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: #000000;
+  color: #FFFFFF;
 }
 .docs.aside .title svg {
   display: block;
@@ -141,17 +141,17 @@
   }
 }
 .docs.aside .link span {
-  color: #DD2929;
+  color: #F46B1E;
 }
 .docs.aside .lvl-1 a, .docs.aside .lvl-2 a {
   text-decoration: none;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (hover: hover) {
   .docs.aside .lvl-1 a:hover, .docs.aside .lvl-2 a:hover {
-    color: #4A4A51;
+    color: #757575;
   }
 }
 .docs.aside .lvl-1 a:active, .docs.aside .lvl-2 a:active {
-  color: #7C7C81;
+  color: #757575;
 }

@@ -25,7 +25,7 @@
     margin: 0;
     font-family: $font-family-1;
     font-style: normal;
-    color: $color-gray-300;
+    color: $color-grey-100;
     font-weight: 600;
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -40,12 +40,12 @@
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-500;
+        color: $color-grey-200;
       }
     }
 
     &:active {
-      color: $color-gray-500;
+      color: $color-grey-200;
     }
 
     svg {

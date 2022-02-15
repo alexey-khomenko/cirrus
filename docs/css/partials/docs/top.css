@@ -20,7 +20,7 @@
   }
 }
 .docs.top .title {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 48px;
@@ -41,7 +41,7 @@
 .docs.top .h1 {
   padding-right: 42px;
   margin: 18px 0 60px;
-  color: #AEAEB1;
+  color: #949494;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
 }
 .docs.top .text {
   max-width: 700px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -99,8 +99,8 @@
   top: 41px;
   width: 40px;
   height: 40px;
-  background-color: #F8F8F8;
-  color: #27272B;
+  background-color: #403E3D;
+  color: #FFFFFF;
 }
 @media (max-width: 750.98px) {
   .docs.top .btn {
@@ -111,11 +111,11 @@
 }
 @media (hover: hover) {
   .docs.top .btn:hover {
-    color: #7C7C81;
+    color: #757575;
   }
 }
 .docs.top .btn:active {
-  color: #DD2929;
+  color: #FFFFFF;
 }
 .docs.top .btn svg {
   display: block;

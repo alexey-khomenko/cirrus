@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #F8F8F8;
+  background-color: #403E3D;
 }
 @media (max-width: 1422.98px) {
   .payment_and_delivery.bottom .content {

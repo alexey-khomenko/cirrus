@@ -19,7 +19,7 @@
   }
 
   .title {
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 48px;
@@ -39,7 +39,7 @@
   .h1 {
     padding-right: 42px;
     margin: 18px 0 60px;
-    color: $color-gray-300;
+    color: $color-grey-100;
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -63,7 +63,7 @@
 
   .text {
     max-width: 700px;
-    color: $color-black;
+    color: $color-white;
     font-weight: 400;
     letter-spacing: 0.02em;
     font-size: 17px;
@@ -93,8 +93,8 @@
     top: 41px;
     width: 40px;
     height: 40px;
-    background-color: $color-gray-050;
-    color: $color-gray-900;
+    background-color: $color-grey-300;
+    color: $color-white;
 
     @media (max-width: $media-grid-sm) {
       display: flex;
@@ -104,12 +104,12 @@
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-500;
+        color: $color-grey-200;
       }
     }
 
     &:active {
-      color: $color-red-700;
+      color: $color-white;
     }
 
     svg {

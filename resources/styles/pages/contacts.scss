@@ -17,6 +17,7 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.02em;
+    color:$color-white ;
 
     @media (max-width: $media-grid-md) {
       font-size: 24px;
@@ -30,6 +31,7 @@
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.02em;
+    color:$color-white ;
 
     @media (max-width: $media-grid-md) {
       font-size: 21px;
@@ -48,6 +50,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color:$color-white ;
 
     @media (max-width: $media-grid-md) {
       font-size: 15px;
@@ -77,6 +80,7 @@
     grid-gap: 24px 16px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
+    color:$color-white ;
 
     @media (max-width: $media-grid-md) {
       width: 100%;
@@ -112,7 +116,7 @@
     }
 
     a {
-      color: $color-black;
+      color:$color-white ;
       font-weight: 600;
       font-size: 30px;
       line-height: 36px;
@@ -131,12 +135,12 @@
 
       @media (hover: hover) {
         &:hover {
-          color: $color-gray-600;
+          color: $color-grey-300;
         }
       }
 
       &:active {
-        color: $color-gray-800;
+        color: $color-grey-300;
       }
     }
   }

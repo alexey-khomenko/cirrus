@@ -7,7 +7,7 @@
   font-style: normal;
   font-size: 30px;
   line-height: 36px;
-  color: #27272B;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
 }
 @media (max-width: 1262.98px) {
@@ -28,7 +28,7 @@
   font-style: normal;
   font-size: 17px;
   line-height: 32px;
-  color: #27272B;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
 }
 @media (max-width: 1262.98px) {
@@ -78,15 +78,15 @@
 }
 .search.empty .light .text a {
   text-decoration: underline;
-  color: #DD2929;
+  color: #F4511E;
 }
 @media (hover: hover) {
   .search.empty .light .text a:hover {
-    color: #E55858;
+    color: #F4511E;
   }
 }
 .search.empty .light .text a:active {
-  color: #ED8585;
+  color: #F4511E;
 }
 .search.empty .content {
   padding: 40px;
@@ -94,7 +94,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #F8F8F8;
+  background-color: #403E3D;
 }
 @media (max-width: 1422.98px) {
   .search.empty .content {
@@ -123,6 +123,7 @@
 .search.empty .right {
   width: 310px;
   height: 70px;
+  border: #000000;
 }
 @media (max-width: 1422.98px) {
   .search.empty .right {

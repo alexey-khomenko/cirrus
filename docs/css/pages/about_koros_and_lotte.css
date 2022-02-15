@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   font-weight: 600;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .about_koros_and_lotte .h1 {
@@ -15,7 +16,7 @@
 }
 .about_koros_and_lotte .h1 .title {
   margin-bottom: 18px;
-  color: #000000;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   font-size: 48px;
   line-height: 58px;
@@ -33,7 +34,7 @@
   }
 }
 .about_koros_and_lotte .h1 .subtitle {
-  color: #AEAEB1;
+  color: #949494;
   letter-spacing: 0.14em;
   font-size: 13px;
   line-height: 18px;
@@ -103,18 +104,18 @@
 }
 .about_koros_and_lotte .tabs span {
   padding-bottom: 4px;
-  color: #000000;
-  border-bottom: 2px solid #DD2929;
+  color: #FFFFFF;
+  border-bottom: 2px solid #F4511E;
 }
 .about_koros_and_lotte .tabs a {
   padding-bottom: 4px;
-  color: #7C7C81;
+  color: #757575;
   border-bottom: 2px solid transparent;
   text-decoration: none;
 }
 @media (hover: hover) {
   .about_koros_and_lotte .tabs a:hover {
-    color: #4A4A51;
+    color: #403E3D;
   }
 }
 .about_koros_and_lotte .tabs a:active {
@@ -163,8 +164,8 @@
 .about_koros_and_lotte .alert {
   margin-bottom: 40px;
   padding: 34px 30px;
-  border: 2px solid #DD2929;
-  color: #000000;
+  border: 2px solid #F4511E;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 21px;
@@ -194,7 +195,7 @@
 }
 .about_koros_and_lotte .text {
   margin-bottom: 45px;
-  color: #000000;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 17px;
@@ -310,7 +311,7 @@
 .about_koros_and_lotte .read {
   width: 160px;
   height: 52px;
-  color: #7C7C81;
+  color: #757575;
 }
 @media (max-width: 750.98px) {
   .about_koros_and_lotte .read {

@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 600;
+    color: $color-white;
 
     @media (max-width: $media-grid-md) {
       margin: 0 0 45px;
@@ -16,7 +17,7 @@
 
     .title {
       margin-bottom: 18px;
-      color: $color-black;
+      color: $color-white;
       letter-spacing: 0.02em;
       font-size: 48px;
       line-height: 58px;
@@ -33,7 +34,7 @@
     }
 
     .subtitle {
-      color: $color-gray-300;
+      color: $color-grey-100;
       letter-spacing: 0.14em;
       font-size: 13px;
       line-height: 18px;
@@ -102,19 +103,19 @@
 
     span {
       padding-bottom: 4px;
-      color: $color-black;
-      border-bottom: 2px solid $color-red-700;
+      color: $color-white;
+      border-bottom: 2px solid $color-red;
     }
 
     a {
       padding-bottom: 4px;
-      color: $color-gray-500;
+      color: $color-grey-200;
       border-bottom: 2px solid transparent;
       text-decoration: none;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-gray-700;
+          color: $color-grey-300;
         }
       }
 
@@ -167,8 +168,8 @@
   .alert {
     margin-bottom: 40px;
     padding: 34px 30px;
-    border: 2px solid $color-red-700;
-    color: $color-black;
+    border: 2px solid $color-red;
+    color: $color-white;
     letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 21px;
@@ -196,7 +197,7 @@
 
   .text {
     margin-bottom: 45px;
-    color: $color-black;
+    color: $color-white;
     letter-spacing: 0.02em;
     font-weight: 400;
     font-size: 17px;
@@ -311,7 +312,7 @@
   .read {
     width: 160px;
     height: 52px;
-    color: $color-gray-500;
+    color: $color-grey-200;
 
     @media (max-width: $media-grid-sm) {
       width: 150px;

@@ -43,7 +43,7 @@
 .product.info .title-left {
   flex-shrink: 0;
   margin-right: 12px;
-  color: #7C7C81;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .product.info .title-left {
@@ -99,25 +99,25 @@
   flex-shrink: 0;
   position: relative;
   padding: 0 16px;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
 }
 .product.info .title-right::before, .product.info .title-right::after {
   content: "";
   position: absolute;
   width: 12px;
-  border-top: 5px solid #000000;
-  border-bottom: 5px solid #000000;
+  border-top: 5px solid #FFFFFF;
+  border-bottom: 5px solid #FFFFFF;
   top: 2px;
   bottom: 6px;
 }
 .product.info .title-right::before {
   left: 0;
-  border-left: 5px solid #000000;
+  border-left: 5px solid #FFFFFF;
 }
 .product.info .title-right::after {
   right: 0;
-  border-right: 5px solid #000000;
+  border-right: 5px solid #FFFFFF;
 }
 .product.info .product-text {
   margin-bottom: 8px;
@@ -179,7 +179,7 @@
 }
 .product.info .text {
   margin-bottom: 32px;
-  color: #27272B;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 15px;
@@ -201,7 +201,7 @@
   margin: 0 0 8px;
 }
 .product.info .properties-head, .product.info .glues-head {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -242,7 +242,7 @@
   }
 }
 .product.info .properties-body div {
-  color: #7C7C81;
+  color: #757575;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 15px;
@@ -280,7 +280,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 3px;
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -307,7 +307,7 @@
   padding: 0 0 2px;
   width: 44px;
   line-height: 42px;
-  color: #7C7C81;
+  color: #403E3D;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -351,11 +351,11 @@
 .product.info .quantity-progress::before {
   z-index: 0;
   width: 100%;
-  border-color: #E0E0E1;
+  border-color: #757575;
 }
 .product.info .quantity-progress .progress-line {
   z-index: 1;
-  border: 2px solid #4A4A51;
+  border: 2px solid #403E3D;
 }
 .product.info .progress-point {
   z-index: 3;
@@ -386,7 +386,7 @@
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.02em;
-  color: #7C7C81;
+  color: #757575;
   text-align: center;
 }
 .product.info .progress-number.active {
@@ -395,7 +395,7 @@
 .product.info .glues {
   margin-bottom: 38px;
   padding: 16px 28px;
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .product.info .glues {
@@ -423,8 +423,8 @@
   }
 }
 .product.info .glues-left {
-  color: #7C7C81;
-  font-weight: 400;
+  color: #302E2D;
+  font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 15px;
   line-height: 28px;
@@ -448,15 +448,15 @@
 }
 .product.info .glues-left a {
   text-decoration: none;
-  color: #DD2929;
+  color: #1EA7F4;
 }
 @media (hover: hover) {
   .product.info .glues-left a:hover {
-    color: #E55858;
+    color: #1EA7F4;
   }
 }
 .product.info .glues-left a:active {
-  color: #ED8585;
+  color: #1EA7F4;
 }
 .product.info .glues-right {
   display: grid;
@@ -488,7 +488,7 @@
   display: block;
   height: 20px;
   padding-left: 28px;
-  color: #27272B;
+  color: #1E1814;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -499,15 +499,15 @@
   }
 }
 .product.info .checkbox-label::after {
-  border-color: #DD2929;
+  border-color: #1EA7F4;
 }
 @media (hover: hover) {
   .product.info .checkbox-label:hover::after {
-    border-color: #ED8585;
+    border-color: #1EA7F4;
   }
 }
 .product.info .checkbox-label:active::after {
-  border-color: #ED8585;
+  border-color: #1EA7F4;
 }
 .product.info .checkbox-label::before {
   content: "";
@@ -517,7 +517,7 @@
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 2px solid #636368;
+  border: 2px solid #403E3D;
 }
 .product.info .checkbox-input:checked + .checkbox-label::after {
   content: "";
@@ -607,7 +607,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   text-decoration: none;
-  color: #000000;
+  color: #757575;
 }
 @media (max-width: 1262.98px) {
   .product.info .link:not(:last-child) {
@@ -616,11 +616,11 @@
 }
 @media (hover: hover) {
   .product.info .link:hover {
-    color: #636368;
+    color: #949494;
   }
 }
 .product.info .link:active {
-  color: #4A4A51;
+  color: #949494;
 }
 .product.info .link span {
   font-weight: 400;
@@ -633,4 +633,5 @@
   width: 24px;
   height: 24px;
   margin-left: 5px;
+  margin-top: 5px;
 }

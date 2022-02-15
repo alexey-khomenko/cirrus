@@ -224,7 +224,7 @@
   bottom: 0;
   left: 0;
   height: 50%;
-  background-color: #F8F8F8;
+  background-color: #757575;
   padding: 24px 26px 28px;
 }
 @media (max-width: 1422.98px) {
@@ -260,7 +260,7 @@
   top: 0;
   left: 0;
   height: 50%;
-  background-color: #27272B;
+  background-color: #000000;
   padding: 28px 26px 24px;
 }
 @media (max-width: 1422.98px) {
@@ -282,7 +282,7 @@
   flex-grow: 1;
 }
 .news.content .card:nth-child(5n-3) .type, .news.content .card:nth-child(5n-3) .times {
-  color: #7C7C81;
+  color: #757575;
 }
 .news.content .card:nth-child(5n-3) .title {
   color: #FFFFFF;

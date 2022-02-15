@@ -3,7 +3,7 @@
 .docs-default.content {
   .text {
     margin-bottom: 26px;
-    color: $color-black;
+    color: $color-white;
     font-weight: 400;
     letter-spacing: 0.02em;
     font-size: 15px;
@@ -37,7 +37,7 @@
   }
 
   .title {
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 30px;
@@ -73,7 +73,7 @@
   .item {
     margin-bottom: 20px;
     padding: 22px 28px;
-    background-color: $color-gray-050;
+    background-color: $color-grey-100;
     display: flex;
     justify-content: flex-start;
     align-items: center;

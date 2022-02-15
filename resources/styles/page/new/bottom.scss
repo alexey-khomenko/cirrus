@@ -183,7 +183,7 @@
       bottom: 0;
       left: 0;
       height: 50%;
-      background-color: $color-white;
+      background-color: $color-grey-300;
       padding: 24px 26px 28px;
 
       @media (max-width: $media-grid-lg) {
@@ -204,11 +204,11 @@
     }
 
     .type, .times {
-      color: $color-gray-500;
+      color: $color-grey-100;
     }
 
     .title {
-      color: $color-black;
+      color: $color-white;
     }
   }
 
@@ -223,7 +223,7 @@
       top: 0;
       left: 0;
       height: 50%;
-      background-color: $color-gray-900;
+      background-color: $color-white;
       padding: 28px 26px 24px;
 
       @media (max-width: $media-grid-lg) {
@@ -244,7 +244,7 @@
     }
 
     .type, .times {
-      color: $color-gray-500;
+      color: $color-grey-300;
     }
 
     .title {

@@ -4,7 +4,7 @@
 }
 .glue .h1 {
   margin: 0 0 52px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 48px;
@@ -26,7 +26,7 @@
 }
 .glue .h2 {
   margin: 0 0 24px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -120,7 +120,7 @@
 }
 .glue .alert {
   padding: 26px 32px;
-  border: 2px solid #DD2929;
+  border: 2px solid #F4511E;
 }
 @media (max-width: 1262.98px) {
   .glue .alert {
@@ -161,10 +161,13 @@
   }
 }
 .glue .table tr:nth-child(even) {
-  background-color: #F8F8F8;
+  background-color: #302E2D;
 }
 .glue .thead td {
-  color: #7C7C81;
+  color: #FFFFFF;
+}
+.glue .table span {
+  color: #FFFFFF;
 }
 .glue .table td {
   position: relative;

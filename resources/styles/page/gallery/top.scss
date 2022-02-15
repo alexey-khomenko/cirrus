@@ -8,13 +8,19 @@
 
   .h1 {
     @include h1;
+    color:$color-white ;
   }
 
   .tiles {
     @include tiles;
+
   }
 
   .tile {
     @include tile;
+
+    span{
+      color: $color-white!important;
+    }
   }
 }

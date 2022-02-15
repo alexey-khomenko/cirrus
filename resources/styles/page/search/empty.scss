@@ -9,7 +9,7 @@
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
-    color: $color-gray-900;
+    color: $color-white;
     letter-spacing: 0.02em;
 
     @media (max-width: $media-grid-md) {
@@ -29,7 +29,7 @@
     font-style: normal;
     font-size: 17px;
     line-height: 32px;
-    color: $color-gray-900;
+    color: $color-white;
     letter-spacing: 0.02em;
 
     @media (max-width: $media-grid-md) {
@@ -76,16 +76,16 @@
 
       a {
         text-decoration: underline;
-        color: $color-red-700;
+        color: $color-red;
 
         @media (hover: hover) {
           &:hover {
-            color: $color-red-500;
+            color: $color-red;
           }
         }
 
         &:active {
-          color: $color-red-300;
+          color: $color-red;
         }
       }
     }
@@ -97,7 +97,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: $color-gray-050;
+    background-color: $color-grey-300;
 
     @media (max-width: $media-grid-lg) {
       padding: 40px 30px;
@@ -127,6 +127,7 @@
   .right {
     width: 310px;
     height: 70px;
+    border: $color-black;
 
     @media (max-width: $media-grid-lg) {
       width: 220px;

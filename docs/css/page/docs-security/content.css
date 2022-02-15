@@ -1,6 +1,6 @@
 .docs-security.content .h2 {
   margin: 44px 0 28px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -28,7 +28,7 @@
   border-collapse: collapse;
 }
 .docs-security.content .table tbody tr:nth-child(odd) {
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
 }
 .docs-security.content .table th, .docs-security.content .table td {
   text-align: left;
@@ -50,12 +50,12 @@
 }
 .docs-security.content .table th {
   vertical-align: bottom;
-  color: #7C7C81;
+  color: #FFFFFF;
   font-weight: 400;
 }
 .docs-security.content .table td {
   vertical-align: middle;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
 }
 .docs-security.content .grid {
@@ -71,7 +71,7 @@
 }
 .docs-security.content .card {
   position: relative;
-  color: #000000;
+  color: #FFFFFF;
   padding-left: 34px;
 }
 .docs-security.content .card svg {
@@ -108,6 +108,7 @@
   letter-spacing: 0.02em;
   font-size: 17px;
   line-height: 30px;
+  color: #FFFFFF;
 }
 @media (max-width: 1262.98px) {
   .docs-security.content .card-text {

@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #F8F8F8;
+  background-color: #403E3D;
 }
 @media (max-width: 1422.98px) {
   .docs.bottom .info {
@@ -44,7 +44,7 @@
 }
 .docs.bottom .info .h2 {
   margin: 0 0 4px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
@@ -63,7 +63,7 @@
 }
 .docs.bottom .info .text {
   margin: 0;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 17px;
   line-height: 32px;

@@ -21,7 +21,7 @@
   margin: 0;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
-  color: #AEAEB1;
+  color: #949494;
   font-weight: 600;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -35,11 +35,11 @@
 }
 @media (hover: hover) {
   .modal-popup.docs .close:hover {
-    color: #7C7C81;
+    color: #757575;
   }
 }
 .modal-popup.docs .close:active {
-  color: #7C7C81;
+  color: #757575;
 }
 .modal-popup.docs .close svg {
   width: 24px;

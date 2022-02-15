@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: $color-gray-050;
+    background-color: $color-grey-300;
 
     @media (max-width: $media-grid-lg) {
       padding: 40px;
@@ -41,7 +41,7 @@
 
     .h2 {
       margin: 0 0 4px;
-      color: $color-black;
+      color: $color-white;
       font-weight: 600;
       font-size: 30px;
       line-height: 36px;
@@ -59,7 +59,7 @@
 
     .text {
       margin: 0;
-      color: $color-black;
+      color: $color-white;
       font-weight: 400;
       font-size: 17px;
       line-height: 32px;

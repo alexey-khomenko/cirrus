@@ -6,7 +6,7 @@
 
   .h1 {
     margin: 0 0 52px;
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 48px;
@@ -27,7 +27,7 @@
 
   .h2 {
     margin: 0 0 24px;
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 30px;
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color: $color-black;
+    color: $color-white;
     font-weight: 400;
     letter-spacing: 0.02em;
     font-size: 17px;
@@ -120,7 +120,7 @@
 
   .alert {
     padding: 26px 32px;
-    border: 2px solid $color-red-700;
+    border: 2px solid $color-red;
 
     @media (max-width: $media-grid-md) {
       padding-left: 20px;
@@ -160,12 +160,16 @@
 
   .table tr {
     &:nth-child(even) {
-      background-color: $color-gray-050;
+      background-color: $color-grey-400;
     }
   }
 
   .thead td {
-    color: $color-gray-500;
+    color: $color-white;
+  }
+
+  .table span{
+    color:$color-white ;
   }
 
   .table td {
@@ -219,6 +223,7 @@
           position: absolute;
           transform: translateX(-50%);
           white-space: nowrap;
+
         }
       }
     }

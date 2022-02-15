@@ -33,7 +33,7 @@ section(class="docs-default content")
   div(class="titles")
     span(class="title")
       | Список справочников
-    a(href="404.html", class="button circuit download-all")
+    a(href="404.html", class="button a download-all")
       span
         | Скачать все материалы
       include ../../partials/svg/download
@@ -42,11 +42,11 @@ section(class="docs-default content")
     div(class="item")
       span(class="name")
         = item.title
-      a(href=`${item.read}`, class="button transparent to-read")
+      a(href=`${item.read}`, class="button transparent a to-read")
         span
           | Читать PDF
         include ../../partials/svg/pdf
-      a(href=`${item.download}`, class="button transparent to-download")
+      a(href=`${item.download}`, class="button transparent a to-download")
         span
           | Скачать PDF
         include ../../partials/svg/download

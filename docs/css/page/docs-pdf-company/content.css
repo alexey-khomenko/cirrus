@@ -3,7 +3,7 @@
 }
 .docs-pdf-company.content .h2 {
   margin: 0 0 24px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -18,7 +18,7 @@
 }
 .docs-pdf-company.content .item {
   margin-bottom: 20px;
-  background-color: #F8F8F8;
+  background-color: #302E2D;
   padding: 30px 28px;
 }
 @media (max-width: 1262.98px) {
@@ -54,7 +54,7 @@
 }
 .docs-pdf-company.content .title {
   margin-bottom: 16px;
-  color: #000000;
+  color: #949494;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -89,7 +89,7 @@
 .docs-pdf-company.content .btn-pdf {
   height: 42px;
   padding: 2px 15px;
-  color: #313138;
+  color: #302E2D;
   font-size: 15px;
   line-height: 18px;
 }

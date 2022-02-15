@@ -41,7 +41,7 @@
   .title-left {
     flex-shrink: 0;
     margin-right: 12px;
-    color: $color-gray-500;
+    color: $color-white;
 
     @media (max-width: $media-grid-lg) {
       margin-right: 0;
@@ -94,27 +94,27 @@
     flex-shrink: 0;
     position: relative;
     padding: 0 16px;
-    color: $color-black;
+    color: $color-white;
     text-align: center;
 
     &::before, &::after {
       content: "";
       position: absolute;
       width: 12px;
-      border-top: 5px solid $color-black;
-      border-bottom: 5px solid $color-black;
+      border-top: 5px solid $color-white;
+      border-bottom: 5px solid $color-white;
       top: 2px;
       bottom: 6px;
     }
 
     &::before {
       left: 0;
-      border-left: 5px solid $color-black;
+      border-left: 5px solid $color-white;
     }
 
     &::after {
       right: 0;
-      border-right: 5px solid $color-black;
+      border-right: 5px solid $color-white;
     }
   }
 
@@ -175,7 +175,7 @@
 
   .text {
     margin-bottom: 32px;
-    color: $color-gray-900;
+    color: $color-white;
     font-weight: 400;
     letter-spacing: 0.02em;
     font-size: 15px;
@@ -197,7 +197,7 @@
   }
 
   .properties-head, .glues-head {
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -234,7 +234,7 @@
     }
 
     div {
-      color: $color-gray-500;
+      color: $color-grey-200;
       font-weight: 400;
       letter-spacing: 0.02em;
       font-size: 15px;
@@ -272,7 +272,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 3px;
-    background-color: $color-gray-050;
+    background-color: $color-white;
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.02em;
@@ -297,7 +297,7 @@
     padding: 0 0 2px;
     width: 44px;
     line-height: 42px;
-    color: $color-gray-500;
+    color: $color-grey-300;
     user-select: none;
 
     @media (hover: hover) {
@@ -343,12 +343,12 @@
     &::before {
       z-index: 0;
       width: 100%;
-      border-color: $color-gray-100;
+      border-color: $color-grey-200;
     }
 
     .progress-line {
       z-index: 1;
-      border: 2px solid $color-gray-700;
+      border: 2px solid $color-grey-300;
     }
   }
 
@@ -383,7 +383,7 @@
     font-size: 15px;
     line-height: 26px;
     letter-spacing: 0.02em;
-    color: $color-gray-500;
+    color: $color-grey-200;
     text-align: center;
 
     &.active {
@@ -394,7 +394,7 @@
   .glues {
     margin-bottom: 38px;
     padding: 16px 28px;
-    background-color: $color-gray-050;
+    background-color: $color-white;
 
     @media (max-width: $media-grid-lg) {
       margin-bottom: 44px;
@@ -420,8 +420,8 @@
   }
 
   .glues-left {
-    color: $color-gray-500;
-    font-weight: 400;
+    color: $color-grey-400;
+    font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 15px;
     line-height: 28px;
@@ -442,16 +442,16 @@
 
     a {
       text-decoration: none;
-      color: $color-red-700;
+      color: $color-blue;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-red-500;
+          color: $color-blue;
         }
       }
 
       &:active {
-        color: $color-red-300;
+        color: $color-blue;
       }
     }
   }
@@ -487,7 +487,7 @@
     display: block;
     height: 20px;
     padding-left: 28px;
-    color: $color-gray-900;
+    color: $color-grey-700;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -497,17 +497,17 @@
     }
 
     &::after {
-      border-color: $color-red-700;
+      border-color: $color-blue;
     }
 
     @media (hover: hover) {
       &:hover::after {
-        border-color: $color-red-300;
+        border-color: $color-blue;
       }
     }
 
     &:active::after {
-      border-color: $color-red-300;
+      border-color: $color-blue;
     }
 
     &::before {
@@ -518,7 +518,7 @@
       width: 16px;
       height: 16px;
       border-radius: 2px;
-      border: 2px solid $color-gray-600;
+      border: 2px solid $color-grey-300;
     }
   }
 
@@ -608,7 +608,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-decoration: none;
-    color: $color-black;
+    color: $color-grey-200;
 
     @media (max-width: $media-grid-md) {
       &:not(:last-child) {
@@ -618,12 +618,12 @@
 
     @media (hover: hover) {
       &:hover {
-        color: $color-gray-600;
+        color: $color-grey-100;
       }
     }
 
     &:active {
-      color: $color-gray-700;
+      color: $color-grey-100;
     }
 
     span {
@@ -638,6 +638,7 @@
       width: 24px;
       height: 24px;
       margin-left: 5px;
+      margin-top: 5px;
     }
   }
 }

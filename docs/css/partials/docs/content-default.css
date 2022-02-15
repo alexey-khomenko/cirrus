@@ -1,6 +1,6 @@
 .docs-default.content .text {
   margin-bottom: 26px;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 15px;
@@ -34,7 +34,7 @@
   }
 }
 .docs-default.content .title {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 30px;
@@ -70,7 +70,7 @@
 .docs-default.content .item {
   margin-bottom: 20px;
   padding: 22px 28px;
-  background-color: #F8F8F8;
+  background-color: #949494;
   display: flex;
   justify-content: flex-start;
   align-items: center;

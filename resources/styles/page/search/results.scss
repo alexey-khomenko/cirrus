@@ -5,7 +5,7 @@
 
   .h2 {
     margin: 0 0 32px;
-    color: $color-black;
+    color: $color-white;
     font-family: $font-family-1;
     font-style: normal;
     font-weight: 600;
@@ -50,12 +50,13 @@
 
     @media (hover: hover) {
       &:hover {
-        border-color: $color-gray-500;
+        border-color: $color-grey-200;
+        background-color: $color-grey-100;
       }
     }
 
     &:active {
-      border-color: $color-gray-700;
+      border-color: $color-grey-300;
     }
 
     .l {
@@ -106,7 +107,7 @@
 
     @media (hover: hover) {
       &:hover .r {
-        color: $color-gray-800;
+        color: $color-grey-300;
       }
     }
   }
@@ -128,7 +129,7 @@
     font-size: 21px;
     line-height: 30px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-md) {
       font-size: 19px;
@@ -148,7 +149,7 @@
     line-height: 18px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: $color-gray-500;
+    color: $color-grey-300;
 
     @media (max-width: $media-grid-md) {
       font-size: 12px;
@@ -161,7 +162,7 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-md) {
       font-size: 13px;
