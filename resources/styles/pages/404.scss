@@ -25,7 +25,7 @@
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.25px;
-    color: $color-black;
+    color: $color-white;
 
     @media (max-width: $media-grid-sm) {
       margin-bottom: 64px;
@@ -71,7 +71,7 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-grey-100;
 
     @media (max-width: $media-grid-md) {
       width: 346px;
@@ -95,7 +95,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: $color-black;
+    color: $color-grey-100;
 
     @media (max-width: $media-grid-md) {
       width: 346px;
@@ -110,17 +110,17 @@
   }
 
   .a {
-    color: $color-red-700;
-    text-decoration: underline;
+    color: $color-blue;
+    text-decoration: none;
 
     @media (hover: hover) {
       &:hover {
-        text-decoration: none;
+        text-decoration: underline;
       }
     }
 
     &:active {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 

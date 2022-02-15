@@ -25,7 +25,7 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.25px;
-  color: #000000;
+  color: #FFFFFF;
 }
 @media (max-width: 750.98px) {
   .error-404 .h1 {
@@ -73,7 +73,7 @@
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #949494;
 }
 @media (max-width: 1262.98px) {
   .error-404 .subtitle {
@@ -98,7 +98,7 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #949494;
 }
 @media (max-width: 1262.98px) {
   .error-404 .text {
@@ -114,16 +114,16 @@
   }
 }
 .error-404 .a {
-  color: #DD2929;
-  text-decoration: underline;
+  color: #1EA7F4;
+  text-decoration: none;
 }
 @media (hover: hover) {
   .error-404 .a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 .error-404 .a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .error-404 .picture {
   display: block;
