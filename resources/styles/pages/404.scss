@@ -110,17 +110,17 @@
   }
 
   .a {
-    color: $color-orange;
-    text-decoration: underline;
+    color: $color-blue;
+    text-decoration: none;
 
     @media (hover: hover) {
       &:hover {
-        text-decoration: none;
+        text-decoration: underline;
       }
     }
 
     &:active {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 

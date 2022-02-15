@@ -52,7 +52,7 @@
     position: relative;
     display: block;
     cursor: pointer;
-    border-bottom: 1px solid $color-black;
+    border-bottom: 1px solid $color-grey-300;
 
     &.disabled {
       cursor: not-allowed;
@@ -67,6 +67,7 @@
       right: 6px;
       top: 50%;
       transform: translateY(-50%) rotate(180deg);
+      color: $color-white;
     }
   }
 
@@ -93,24 +94,24 @@
   .select:not([open]) {
 
     .select-placeholder {
-      color: $color-gray-500;
+      color: $color-white;
     }
 
     @media (hover: hover) {
       .summary:not(.disabled):hover .select-placeholder {
-        color: $color-gray-900;
+        color: $color-grey-100;
       }
     }
 
     .summary:not(.disabled):active .select-placeholder {
-      color: $color-gray-900;
+      color: $color-grey-100;
     }
   }
 
   .select[open] {
 
     .select-placeholder {
-      color: $color-red-700;
+      color: $color-white;
     }
   }
 
@@ -149,14 +150,14 @@
   }
 
   .select-title-text {
-    color: $color-gray-500;
+    color: $color-grey-200;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
   }
 
   .select-title-value {
-    color: $color-black;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 17px;
@@ -171,7 +172,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: $color-white;
+    background-color: $color-grey-300;
     box-shadow: 0 25px 25px rgba(0, 0, 0, .12);
     padding: 20px;
   }
@@ -224,8 +225,7 @@
         height: 11px;
         border-left-width: 4px;
         border-bottom-width: 4px;
-        border-color: #000000;
-
+        border-color: $color-black;
       }
 
       &::after {
@@ -234,7 +234,7 @@
         height: 10px;
         border-left-width: 2px;
         border-bottom-width: 2px;
-        border-color: #FFFFFF;
+        border-color: $color-white;
       }
     }
   }
@@ -275,7 +275,7 @@
   }
 
   .collection {
-    color: $color-black;
+    color: $color-white;
     letter-spacing: 0.02em;
     font-size: 15px;
     line-height: 28px;

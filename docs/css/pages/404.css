@@ -114,16 +114,16 @@
   }
 }
 .error-404 .a {
-  color: #F46B1E;
-  text-decoration: underline;
+  color: #1EA7F4;
+  text-decoration: none;
 }
 @media (hover: hover) {
   .error-404 .a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 .error-404 .a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .error-404 .picture {
   display: block;
