@@ -2,11 +2,11 @@
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   position: relative;
-  padding: 0 0 40px;
+  padding: 0 0 60px;
 }
 @media (max-width: 1422.98px) {
   .docs.top {
-    padding-bottom: 36px;
+    padding-bottom: 46px;
   }
 }
 @media (max-width: 1262.98px) {
@@ -16,7 +16,7 @@
 }
 @media (max-width: 750.98px) {
   .docs.top {
-    padding-bottom: 36px;
+    padding-bottom: 46px;
   }
 }
 .docs.top .title {

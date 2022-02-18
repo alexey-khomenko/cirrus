@@ -280,7 +280,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 3px;
-  background-color: #FFFFFF;
+  background-color: #201B17;
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -307,7 +307,7 @@
   padding: 0 0 2px;
   width: 44px;
   line-height: 42px;
-  color: #403E3D;
+  color: #FFFFFF;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -315,15 +315,15 @@
 }
 @media (hover: hover) {
   .product.info .quantity-minus:hover, .product.info .quantity-plus:hover {
-    color: #000000;
+    color: #949494;
   }
 }
 .product.info .quantity-minus:active, .product.info .quantity-plus:active {
-  color: #000000;
+  color: #949494;
 }
 .product.info .quantity-number {
   line-height: 32px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .product.info .quantity-right {
   width: 316px;
@@ -351,11 +351,11 @@
 .product.info .quantity-progress::before {
   z-index: 0;
   width: 100%;
-  border-color: #757575;
+  border-color: #262423;
 }
 .product.info .quantity-progress .progress-line {
   z-index: 1;
-  border: 2px solid #403E3D;
+  border: 2px solid #F46B1E;
 }
 .product.info .progress-point {
   z-index: 3;
@@ -366,9 +366,9 @@
   width: 24px;
   height: 24px;
   border-radius: 99999px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #949494;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  background-color: #313138;
+  background-color: #262423;
 }
 .product.info .progress-numbers {
   height: 28px;
@@ -386,16 +386,16 @@
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #949494;
   text-align: center;
 }
 .product.info .progress-number.active {
-  color: #000000;
+  color: #FFFFFF;
 }
 .product.info .glues {
   margin-bottom: 38px;
   padding: 16px 28px;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 @media (max-width: 1422.98px) {
   .product.info .glues {
@@ -423,7 +423,7 @@
   }
 }
 .product.info .glues-left {
-  color: #302E2D;
+  color: #949494;
   font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 15px;
@@ -452,11 +452,11 @@
 }
 @media (hover: hover) {
   .product.info .glues-left a:hover {
-    color: #1EA7F4;
+    text-decoration: underline;
   }
 }
 .product.info .glues-left a:active {
-  color: #1EA7F4;
+  text-decoration: underline;
 }
 .product.info .glues-right {
   display: grid;
@@ -488,7 +488,7 @@
   display: block;
   height: 20px;
   padding-left: 28px;
-  color: #1E1814;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;

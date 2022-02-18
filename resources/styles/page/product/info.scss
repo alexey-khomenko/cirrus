@@ -272,7 +272,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 3px;
-    background-color: $color-white;
+    background-color: $color-grey-600;
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.02em;
@@ -297,23 +297,23 @@
     padding: 0 0 2px;
     width: 44px;
     line-height: 42px;
-    color: $color-grey-300;
+    color: $color-white;
     user-select: none;
 
     @media (hover: hover) {
       &:hover {
-        color: $color-black;
+        color: $color-grey-100;
       }
     }
 
     &:active {
-      color: $color-black;
+      color: $color-grey-100;
     }
   }
 
   .quantity-number {
     line-height: 32px;
-    color: $color-black;
+    color: $color-white;
   }
 
   .quantity-right {
@@ -343,12 +343,12 @@
     &::before {
       z-index: 0;
       width: 100%;
-      border-color: $color-grey-200;
+      border-color: $color-grey-500;
     }
 
     .progress-line {
       z-index: 1;
-      border: 2px solid $color-grey-300;
+      border: 2px solid $color-orange;
     }
   }
 
@@ -361,9 +361,9 @@
     width: 24px;
     height: 24px;
     border-radius: 99999px;
-    border: 2px solid $color-white;
+    border: 2px solid $color-grey-100;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-    background-color: $color-gray-800;
+    background-color: $color-grey-500;
   }
 
   .progress-numbers {
@@ -383,18 +383,18 @@
     font-size: 15px;
     line-height: 26px;
     letter-spacing: 0.02em;
-    color: $color-grey-200;
+    color: $color-grey-100;
     text-align: center;
 
     &.active {
-      color: $color-black;
+      color: $color-white;
     }
   }
 
   .glues {
     margin-bottom: 38px;
     padding: 16px 28px;
-    background-color: $color-white;
+    color: $color-white;
 
     @media (max-width: $media-grid-lg) {
       margin-bottom: 44px;
@@ -420,7 +420,7 @@
   }
 
   .glues-left {
-    color: $color-grey-400;
+    color: $color-grey-100;
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 15px;
@@ -446,12 +446,12 @@
 
       @media (hover: hover) {
         &:hover {
-          color: $color-blue;
+          text-decoration: underline;
         }
       }
 
       &:active {
-        color: $color-blue;
+        text-decoration: underline;
       }
     }
   }
@@ -487,7 +487,7 @@
     display: block;
     height: 20px;
     padding-left: 28px;
-    color: $color-grey-700;
+    color: $color-white;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;

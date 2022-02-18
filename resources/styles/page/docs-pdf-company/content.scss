@@ -20,7 +20,7 @@
 
   .item {
     margin-bottom: 20px;
-    background-color: $color-grey-400;
+    background-color: $color-grey-300;
     padding: 30px 28px;
 
     @media (max-width: $media-grid-md) {
@@ -54,7 +54,7 @@
 
   .title {
     margin-bottom: 16px;
-    color: $color-grey-100;
+    color: $color-white;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 17px;
@@ -88,7 +88,6 @@
   .btn-pdf {
     height: 42px;
     padding: 2px 15px;
-    color: $color-grey-400;
     font-size: 15px;
     line-height: 18px;
 

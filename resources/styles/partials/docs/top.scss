@@ -4,10 +4,10 @@
   font-family: $font-family-1;
   font-style: normal;
   position: relative;
-  padding: 0 0 40px;
+  padding: 0 0 60px;
 
   @media (max-width: $media-grid-lg) {
-    padding-bottom: 36px;
+    padding-bottom: 46px;
   }
 
   @media (max-width: $media-grid-md) {
@@ -15,7 +15,7 @@
   }
 
   @media (max-width: $media-grid-sm) {
-    padding-bottom: 36px;
+    padding-bottom: 46px;
   }
 
   .title {

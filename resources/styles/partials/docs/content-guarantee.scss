@@ -18,7 +18,7 @@
       letter-spacing: 0.02em;
       font-size: 24px;
       line-height: 30px;
-      color: $color-white;
+
       @media (max-width: $media-grid-md) {
         height: 44px;
         margin-left: 0;
@@ -32,23 +32,23 @@
     }
 
     span {
-      color: $color-black;
-      border-bottom: 2px solid $color-red;
+      color: $color-white;
+      border-bottom: 2px solid $color-orange;
     }
 
     a {
       text-decoration: none;
-      color: $color-grey-300;
+      color: $color-white;
       padding-bottom: 2px;
 
       @media (hover: hover) {
         &:hover {
-          color: $color-grey-400;
+          color: $color-grey-100;
         }
       }
 
       &:active {
-        color: $color-black;
+        color: $color-grey-200;
       }
     }
   }
@@ -167,7 +167,7 @@
       left: 3px;
       width: 11px;
       height: 11px;
-      border: 1px solid $color-grey-400;
+      border: 1px solid $color-white;
       transform: rotate(45deg);
 
       @media (max-width: $media-grid-sm) {

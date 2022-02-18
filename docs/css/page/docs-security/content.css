@@ -28,7 +28,7 @@
   border-collapse: collapse;
 }
 .docs-security.content .table tbody tr:nth-child(odd) {
-  background-color: #FFFFFF;
+  background-color: #403E3D;
 }
 .docs-security.content .table th, .docs-security.content .table td {
   text-align: left;

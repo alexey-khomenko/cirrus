@@ -70,7 +70,7 @@
 .docs-default.content .item {
   margin-bottom: 20px;
   padding: 22px 28px;
-  background-color: #949494;
+  background-color: #403E3D;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -82,7 +82,7 @@
   }
 }
 .docs-default.content .name {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 17px;
@@ -103,7 +103,6 @@
 .docs-default.content .to-read, .docs-default.content .to-download {
   height: 42px;
   flex-shrink: 0;
-  color: #313138;
   font-size: 15px;
 }
 @media (max-width: 750.98px) {

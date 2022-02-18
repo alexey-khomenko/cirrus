@@ -4,8 +4,26 @@
   align-items: flex-start;
   position: relative;
 }
+.doc.middle::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-color: #302E2D;
+}
+@media (max-width: 750.98px) {
+  .doc.middle::after {
+    margin-left: -210px;
+    margin-right: -210px;
+  }
+}
 
 .doc.middle .content {
+  position: relative;
+  z-index: 1;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   flex-grow: 1;
@@ -28,7 +46,10 @@
 }
 
 .doc.middle .docs.aside {
+  position: relative;
+  z-index: 1;
   padding: 38px 20px 38px 0;
+  margin-top: -20px;
   margin-right: 60px;
   width: 338px;
   flex-shrink: 0;
@@ -54,7 +75,7 @@
 .doc.middle .docs.aside::before {
   display: block;
   content: "";
-  background-color: #302E2D;
+  background-color: #262423;
   position: absolute;
   z-index: 0;
   top: 0;
@@ -82,6 +103,7 @@
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-style: normal;
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -141,11 +163,11 @@
   }
 }
 .docs.aside .link span {
-  color: #F46B1E;
+  color: #FFFFFF;
 }
 .docs.aside .lvl-1 a, .docs.aside .lvl-2 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #949494;
 }
 @media (hover: hover) {
   .docs.aside .lvl-1 a:hover, .docs.aside .lvl-2 a:hover {
