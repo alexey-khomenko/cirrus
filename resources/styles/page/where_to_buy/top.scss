@@ -98,8 +98,9 @@
     height: 100%;
     width: 100%;
     border-radius: 2px;
-    border: 1px solid transparent;
-    color: $color-grey-300;
+    border: 1px solid $color-white;
+    background-color: transparent;
+    color: $color-white;
     font-family: $font-family-1;
     font-weight: 400;
     font-style: normal;
@@ -122,16 +123,13 @@
       color: $color-grey-200;
     }
 
-    &:focus {
-      border-color: $color-black;
-    }
   }
 
   .city-wrapper {
     position: relative;
 
     svg {
-      color: $color-black;
+      color: $color-white;
       width: 24px;
       height: 24px;
       position: absolute;
@@ -159,31 +157,28 @@
       cursor: pointer;
       padding-left: 15px;
       padding-right: 32px;
-      border-top: none;
-      border-left: none;
-      border-right: none;
-      border-bottom: 1px solid $color-black;
-      background-color: $color-white;
+      border: 1px solid $color-white;
+      background-color: transparent;
 
       @media (pointer: coarse) {
         &:active::placeholder {
-          color: $color-grey-300;
+          color: $color-grey-200;
         }
       }
 
       @media (hover: hover) {
         &:hover::placeholder {
-          color: $color-grey-300;
+          color: $color-grey-200;
         }
       }
     }
 
     svg {
       position: absolute;
-      right: 8px;
-      top: calc(50% - 1px);
+      right: 18px;
+      top: 50%;
       display: block;
-      color: $color-grey-200;
+      color: $color-white;
       transform: translateY(-50%);
     }
 
@@ -253,7 +248,7 @@
 
     &.active {
       cursor: default;
-      border-bottom: 1px solid $color-grey-200;
+      border-bottom: 1px solid $color-grey-700;
     }
   }
 }

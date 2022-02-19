@@ -18,6 +18,13 @@
     min-height: 416px;
   }
 
+  .wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: $color-grey-500;
+    padding: 30px 20px;
+  }
+
   .h1 {
     margin: 0 0 26px;
     width: 400px;
@@ -127,6 +134,7 @@
   .picture {
     display: block;
     position: absolute;
+    z-index: 0;
     top: 50%;
     transform: translateY(-50%);
     left: 490px;
@@ -137,17 +145,14 @@
 
     @media (max-width: $media-grid-md) {
       left: 320px;
-      height: 320px;
+      height: 620px;
       width: auto;
     }
 
     @media (max-width: $media-grid-sm) {
       left: 150px;
-      height: 160px;
+      height: 600px;
       width: auto;
-
-      top: 0;
-      transform: none;
     }
   }
 }

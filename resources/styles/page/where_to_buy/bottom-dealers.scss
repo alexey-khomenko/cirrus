@@ -21,8 +21,7 @@
     margin-bottom: 10px;
     padding: 19px 29px 9px;
     width: 542px;
-    border: 3px solid transparent;
-    background-color: $color-grey-300;
+    border: 3px solid $color-grey-500;
     font-family: $font-family-1;
     font-style: normal;
 
@@ -44,8 +43,8 @@
     }
 
     &.active {
-      border-color: $color-gray-500;
-      background-color: $color-white;
+      border-color: transparent;
+      background-color: $color-grey-300;
     }
 
     .title {
@@ -67,13 +66,15 @@
       }
     }
 
-    &.active .title {
-      color: $color-red;
+    &.active {
+      .subtitle, .item, a {
+        color: $color-white;
+      }
     }
 
     .subtitle {
       margin-bottom: 20px;
-      color: $color-black;
+      color: $color-grey-100;
       font-weight: 600;
       font-size: 13px;
       line-height: 18px;
@@ -104,7 +105,7 @@
       position: relative;
       padding-left: 32px;
       margin-bottom: 10px;
-      color: $color-grey-400;
+      color: $color-grey-100;
 
       @media (max-width: $media-grid-sm) {
         flex-basis: 100%;
@@ -120,7 +121,7 @@
     }
 
     .item {
-      color: $color-black;
+      color: $color-grey-100;
       font-weight: 400;
       font-size: 17px;
       line-height: 28px;
@@ -141,7 +142,7 @@
       }
 
       a {
-        color: $color-black;
+        color: $color-grey-100;
         text-decoration: none;
 
         @media (hover: hover) {

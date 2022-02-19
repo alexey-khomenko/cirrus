@@ -18,6 +18,12 @@
     min-height: 416px;
   }
 }
+.error-404 .wrapper {
+  position: relative;
+  z-index: 1;
+  background-color: #262423;
+  padding: 30px 20px;
+}
 .error-404 .h1 {
   margin: 0 0 26px;
   width: 400px;
@@ -128,6 +134,7 @@
 .error-404 .picture {
   display: block;
   position: absolute;
+  z-index: 0;
   top: 50%;
   transform: translateY(-50%);
   left: 490px;
@@ -140,16 +147,14 @@
 @media (max-width: 1262.98px) {
   .error-404 .picture {
     left: 320px;
-    height: 320px;
+    height: 620px;
     width: auto;
   }
 }
 @media (max-width: 750.98px) {
   .error-404 .picture {
     left: 150px;
-    height: 160px;
+    height: 600px;
     width: auto;
-    top: 0;
-    transform: none;
   }
 }

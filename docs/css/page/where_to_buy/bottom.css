@@ -85,7 +85,7 @@
   width: 542px;
   left: 0;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, rgba(30, 24, 20, 0) 0%, #1E1814 100%);
   pointer-events: none;
 }
 @media (max-width: 1262.98px) {
@@ -140,9 +140,6 @@
     font-size: 14px;
     line-height: 24px;
   }
-}
-.where_to_buy.bottom .title-row .found span {
-  color: #F4511E;
 }
 .where_to_buy.bottom .buttons {
   display: none;

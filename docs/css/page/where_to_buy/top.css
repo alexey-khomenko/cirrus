@@ -98,8 +98,9 @@
   height: 100%;
   width: 100%;
   border-radius: 2px;
-  border: 1px solid transparent;
-  color: #403E3D;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
   font-family: "Proxima Nova", "Jost", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -131,14 +132,11 @@
   opacity: 1;
   color: #757575;
 }
-.where_to_buy.top input:focus {
-  border-color: #000000;
-}
 .where_to_buy.top .city-wrapper {
   position: relative;
 }
 .where_to_buy.top .city-wrapper svg {
-  color: #000000;
+  color: #FFFFFF;
   width: 24px;
   height: 24px;
   position: absolute;
@@ -164,40 +162,37 @@
   cursor: pointer;
   padding-left: 15px;
   padding-right: 32px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #000000;
-  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
 }
 @media (pointer: coarse) {
   .where_to_buy.top .type-wrapper input[readonly]:active::-moz-placeholder {
-    color: #403E3D;
+    color: #757575;
   }
   .where_to_buy.top .type-wrapper input[readonly]:active:-ms-input-placeholder {
-    color: #403E3D;
+    color: #757575;
   }
   .where_to_buy.top .type-wrapper input[readonly]:active::placeholder {
-    color: #403E3D;
+    color: #757575;
   }
 }
 @media (hover: hover) {
   .where_to_buy.top .type-wrapper input[readonly]:hover::-moz-placeholder {
-    color: #403E3D;
+    color: #757575;
   }
   .where_to_buy.top .type-wrapper input[readonly]:hover:-ms-input-placeholder {
-    color: #403E3D;
+    color: #757575;
   }
   .where_to_buy.top .type-wrapper input[readonly]:hover::placeholder {
-    color: #403E3D;
+    color: #757575;
   }
 }
 .where_to_buy.top .type-wrapper svg {
   position: absolute;
-  right: 8px;
-  top: calc(50% - 1px);
+  right: 18px;
+  top: 50%;
   display: block;
-  color: #757575;
+  color: #FFFFFF;
   transform: translateY(-50%);
 }
 .where_to_buy.top .type-wrapper[open] input[readonly]::-moz-placeholder {
@@ -265,5 +260,5 @@
 }
 .where_to_buy.top .option.active {
   cursor: default;
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid #1E1814;
 }

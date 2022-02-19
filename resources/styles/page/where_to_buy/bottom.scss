@@ -85,7 +85,7 @@
       width: 542px;
       left: 0;
       bottom: 0;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+      background: linear-gradient(180deg, rgba(30, 24, 20, 0) 0%, #1E1814 100%);
       pointer-events: none;
 
       @media (max-width: $media-grid-md) {
@@ -138,9 +138,7 @@
         line-height: 24px;
       }
 
-      span {
-        color: $color-red;
-      }
+
     }
   }
 
