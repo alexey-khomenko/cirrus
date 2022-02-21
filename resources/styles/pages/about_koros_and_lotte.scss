@@ -127,39 +127,22 @@
   .image {
     display: none;
     position: relative;
+    margin: 35px 0 45px;
 
     @media (max-width: $media-grid-md) {
       display: block;
-      height: 350px;
-    }
-
-    @media (max-width: $media-grid-sm) {
-      height: 200px;
     }
 
     img {
-      position: absolute;
+      object-fit: cover;
+      max-width: 100%;
 
-      &.koros {
-        top: -55px;
-        left: -365px;
-
-        @media (max-width: $media-grid-sm) {
-          top: -24px;
-          left: -260px;
-          height: 250px;
-        }
+      @media (max-width: $media-grid-md) {
+        height: 350px;
       }
 
-      &.lotte {
-        top: -60px;
-        left: -310px;
-
-        @media (max-width: $media-grid-sm) {
-          top: -35px;
-          left: -264px;
-          height: 280px;
-        }
+      @media (max-width: $media-grid-sm) {
+        height: 200px;
       }
     }
   }
@@ -348,27 +331,12 @@
 
     img {
       position: absolute;
-      left: 0;
+      top: 70px;
+      left: 20px;
       width: 100%;
 
       @media (max-width: $media-grid-lg) {
         left: 40px;
-      }
-
-      &.koros {
-        top: -90px;
-
-        @media (max-width: $media-grid-lg) {
-          top: -80px;
-        }
-      }
-
-      &.lotte {
-        top: -80px;
-
-        @media (max-width: $media-grid-lg) {
-          top: -78px;
-        }
       }
     }
   }

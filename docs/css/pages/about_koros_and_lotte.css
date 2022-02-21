@@ -123,41 +123,26 @@
 .about_koros_and_lotte .image {
   display: none;
   position: relative;
+  margin: 35px 0 45px;
 }
 @media (max-width: 1262.98px) {
   .about_koros_and_lotte .image {
     display: block;
+  }
+}
+.about_koros_and_lotte .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+@media (max-width: 1262.98px) {
+  .about_koros_and_lotte .image img {
     height: 350px;
   }
 }
 @media (max-width: 750.98px) {
-  .about_koros_and_lotte .image {
+  .about_koros_and_lotte .image img {
     height: 200px;
-  }
-}
-.about_koros_and_lotte .image img {
-  position: absolute;
-}
-.about_koros_and_lotte .image img.koros {
-  top: -55px;
-  left: -365px;
-}
-@media (max-width: 750.98px) {
-  .about_koros_and_lotte .image img.koros {
-    top: -24px;
-    left: -260px;
-    height: 250px;
-  }
-}
-.about_koros_and_lotte .image img.lotte {
-  top: -60px;
-  left: -310px;
-}
-@media (max-width: 750.98px) {
-  .about_koros_and_lotte .image img.lotte {
-    top: -35px;
-    left: -264px;
-    height: 280px;
   }
 }
 .about_koros_and_lotte .alert {
@@ -347,27 +332,12 @@
 }
 .about_koros_and_lotte .right img {
   position: absolute;
-  left: 0;
+  top: 70px;
+  left: 20px;
   width: 100%;
 }
 @media (max-width: 1422.98px) {
   .about_koros_and_lotte .right img {
     left: 40px;
-  }
-}
-.about_koros_and_lotte .right img.koros {
-  top: -90px;
-}
-@media (max-width: 1422.98px) {
-  .about_koros_and_lotte .right img.koros {
-    top: -80px;
-  }
-}
-.about_koros_and_lotte .right img.lotte {
-  top: -80px;
-}
-@media (max-width: 1422.98px) {
-  .about_koros_and_lotte .right img.lotte {
-    top: -78px;
   }
 }
